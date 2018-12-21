@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>美多商城-用户中心</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/host.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/vue-2.5.16.js"></script>
+    <script type="text/javascript" src="js/axios-0.18.0.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="header_con">
+        <div class="header">
+            <div class="welcome fl">欢迎来到美多商城!</div>
+            <div class="fr">
+                <div v-if="username" class="login_btn fl">
+                    欢迎您：<em>[[ username ]]</em>
+                    <span>|</span>
+                    <a @click="logout">退出</a>
+                </div>
+                <div class="user_link fl">
+                    <span>|</span>
+                    <a href="user_center_info.html">用户中心</a>
+                    <span>|</span>
+                    <a href="cart.html">我的购物车</a>
+                    <span>|</span>
+                    <a href="user_center_order.html">我的订单</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search_bar clearfix">
+        <a href="index.html" class="logo fl"><img src="images/logo.png"></a>
+        <div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;用户中心</div>
+        <div class="search_con fr mt40">
+            <input type="text" class="input_text fl" name="" placeholder="搜索商品">
+            <input type="button" class="input_btn fr" name="" value="搜索">
+        </div>
+    </div>
+
+    <div class="main_con clearfix">
+        <div class="left_menu_con clearfix">
+            <h3>用户中心</h3>
+            <ul>
+                <li><a href="user_center_info.html">· 个人信息</a></li>
+                <li><a href="user_center_order.html" class="active">· 全部订单</a></li>
+                <li><a href="user_center_site.html">· 收货地址</a></li>
+                <li><a href="user_center_pass.html">· 修改密码</a></li>
+            </ul>
+        </div>
+        <div class="right_content clearfix">
+            <!--<h3 class="common_title2">全部订单</h3> -->
+            <div class="sort_bar">
+                <a @click="on_sort('0')" :class="ordering=='0'?'active':''" href="#">全部订单</a>
+                <a @click="on_sort('1')" :class="ordering=='1'?'active':''" href="#">待支付</a>
+                <a @click="on_sort('2')" :class="ordering=='2'?'active':''" href="#">待发货</a>
+                <a @click="on_sort('3')" :class="ordering=='3'?'active':''" href="#">待收货</a>
+                <a @click="on_sort('4')" :class="ordering=='4'?'active':''" href="#">待评价</a>
+            </div>
+            <div v-for="(order,index) in orders">
+                <ul class="order_list_th w978 clearfix">
+                    <li class="col01">[[ order.create_time ]]</li>
+                    <li class="col02">订单号：[[ order.order_id ]]</li>
+                    <li class="col03"><a @click="delete_order(index)">[[ delete_status(order.status) ]]</a></li>
+
+                </ul>
+
+                <table class="order_list_table w980">
+                    <tr>
+                        <td width="55%">
+                            <ul class="order_goods_list clearfix" v-for="sku in order.skus">
+                                <li class="col01"><a :href="order_image_url(sku.sku.id)"><img :src="sku.sku.default_image_url"></a></li>
+                                <li class="col02"><a :href="order_image_url(sku.sku.id)" style="color: #999;">[[ sku.sku.name ]]</a> <em>¥[[ sku.price ]]</em></li>
+                                <li class="col03">[[ sku.count ]]</li>
+                                <li class="col04">¥[[ sku.price*sku.count ]]</li>
+                            </ul>
+                        </td>
+                        <td width="11%"> ¥[[ order.total_amount ]]</td>
+                        <td width="11%">[[ pay_methods[order.pay_method-1] ]]</td>
+                        <td width="11%"><a class="oper_btn">[[ pay_statuses[order.status-1] ]]</a></td>
+                        <td width="11%"><a @click="operate_order(order.order_id, order.status)" class="oper_btn">[[ operate_status(order.status) ]]</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="pagenation">
+                <a v-show="previous" @click="on_page(previous)">上一页</a>
+                <a v-for="num in page_nums" @click="on_page(num)" :class="num==page?'active':''">[[num]]</a>
+                <a v-show="next" @click="on_page(next)">下一页></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/user_center_order.js"></script>
+
+<div class="footer">
+    <div class="foot_link">
+        <a href="#">关于我们</a>
+        <span>|</span>
+        <a href="#">联系我们</a>
+        <span>|</span>
+        <a href="#">招聘人才</a>
+        <span>|</span>
+        <a href="#">友情链接</a>
+    </div>
+    <p>CopyRight © 2016 北京美多商业股份有限公司 All Rights Reserved</p>
+    <p>电话：010-****888 京ICP备*******8号</p>
+</div>
+
+</body>
+</html>

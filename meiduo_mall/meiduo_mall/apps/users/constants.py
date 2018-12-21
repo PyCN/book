@@ -1,0 +1,9 @@
+# 邮箱激活的有效期
+VERIFY_EMAIL_TOKEN_EXPIRES = 24 * 60 * 60
+
+# 用户收货地址最大限制
+USER_ADDRESS_COUNTS_LIMIT = 20
+
+# 用户浏览商品历史记录的最大条数
+
+USER_BROWSING_HISTORY_COUNTS_LIMIT = 5

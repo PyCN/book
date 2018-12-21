@@ -1,0 +1,2 @@
+alter table tb_areas modify create_time datetime default now();
+alter table tb_areas modify update_time datetime default now();
