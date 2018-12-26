@@ -1,196 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51dbda6-80ee-44ee-b720-0ab13a505d74" name="Default" comment="书城初始化">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book_mall/scripts/import_category_data.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/12.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/13.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/14.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/15.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/goods/9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/migrations/0002_auto_20181120_1900.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/migrations/0003_auto_20181126_1844.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/migrations/0002_oauthqquser_user.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/migrations/0002_auto_20181119_1826.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/1.jpg" afterPath="$PROJECT_DIR$/book_mall/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/__init__.py" afterPath="$PROJECT_DIR$/book_mall/scripts/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/config.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/email/__init__.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/email/tasks.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/email/tasks.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/html/__init__.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/html/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/html/tasks.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/html/tasks.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/html/tasks2.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/html/tasks2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/main.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/__init__.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/email/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/tasks.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/tasks.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/yuntongxun/CCPRestSDK.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/yuntongxun/CCPRestSDK.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/yuntongxun/__init__.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/yuntongxun/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/yuntongxun/sms.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/yuntongxun/sms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/celery_tasks/sms/yuntongxun/xmltojson.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/sms/yuntongxun/xmltojson.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/manage.py" afterPath="$PROJECT_DIR$/book_mall/manage.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/__init__.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/captcha/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/adminx.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/adminx.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/settings/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/libs/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/utils.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/carts/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/crons.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/contents/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/adminx.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/search_indexes.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/search_indexes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/utils.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/exceptions.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/exceptions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/utils.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/adminx.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/adminx.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/alipay_public_key.pem" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/alipay_public_key.pem" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/keys/alipay_public_key.pem" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/keys/alipay_public_key.pem" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/keys/app_private_key.pem" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/keys/app_private_key.pem" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/payment/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/utils.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/users/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/admin.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/apps.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/migrations/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/tests.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/verifications/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/verifications/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/libs/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/libs/yuntongxun/CCPRestSDK.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/libs/yuntongxun/CCPRestSDK.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/libs/yuntongxun/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/libs/yuntongxun/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/libs/yuntongxun/sms.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/libs/yuntongxun/sms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/libs/yuntongxun/xmltojson.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/libs/yuntongxun/xmltojson.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/carts/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/develop.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/settings/develop.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/prod.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/settings/prod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/templates/detail.html" afterPath="$PROJECT_DIR$/book_mall/book_mall/templates/detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/templates/index.html" afterPath="$PROJECT_DIR$/book_mall/book_mall/templates/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/templates/search/indexes/goods/sku_text.txt" afterPath="$PROJECT_DIR$/book_mall/book_mall/templates/search/indexes/goods/sku_text.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/captcha/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/captcha/captcha.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/captcha/captcha.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/captcha/fonts/Arial.ttf" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/captcha/fonts/Arial.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/captcha/fonts/Georgia.ttf" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/captcha/fonts/Georgia.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/captcha/fonts/actionj.ttf" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/captcha/fonts/actionj.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/db_router.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/db_router.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/exceptions.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/exceptions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/client.conf" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/fdfs_storage.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/fdfs_storage.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/pagination.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/pagination.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/wsgi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/require.txt" afterPath="$PROJECT_DIR$/book_mall/require.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/run_celery_tasks.sh" afterPath="$PROJECT_DIR$/book_mall/run_celery_tasks.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/__init__.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/alter_areas_default.txt" afterPath="$PROJECT_DIR$/book_mall/scripts/alter_areas_default.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/areas.sql" afterPath="$PROJECT_DIR$/book_mall/scripts/areas.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/fdfs_client-py-master.zip" afterPath="$PROJECT_DIR$/book_mall/scripts/fdfs_client-py-master.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/goods_data.sql" afterPath="$PROJECT_DIR$/book_mall/scripts/goods_data.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/import_areas_to_db.sh" afterPath="$PROJECT_DIR$/book_mall/scripts/import_areas_to_db.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/import_goods_to_db.sh" afterPath="$PROJECT_DIR$/book_mall/scripts/import_goods_to_db.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/regenerate_detail_html.py" afterPath="$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/scripts/regenerate_index_html.py" afterPath="$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/uwsgi.ini" afterPath="$PROJECT_DIR$/book_mall/uwsgi.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meiduo_mall/uwsgi.pid" afterPath="$PROJECT_DIR$/book_mall/uwsgi.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/book.iml" afterPath="$PROJECT_DIR$/.idea/book.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="e51dbda6-80ee-44ee-b720-0ab13a505d74" name="Default" comment="书城完成">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/index.html" afterPath="$PROJECT_DIR$/front_end_pc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/host.js" afterPath="$PROJECT_DIR$/front_end_pc/js/host.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/list.js" afterPath="$PROJECT_DIR$/front_end_pc/js/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/search.js" afterPath="$PROJECT_DIR$/front_end_pc/js/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/require.txt" afterPath="$PROJECT_DIR$/book_mall/require.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -293,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end_pc/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="264">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <marker date="1545748575626" expanded="true" signature="2307:2329" ph="{...}" />
                 <marker date="1545748575626" expanded="true" signature="2401:2426" ph="{...}" />
@@ -306,6 +119,16 @@
                 <marker date="1545748575626" expanded="true" signature="4269:4295" ph="{...}" />
                 <marker date="1545748575626" expanded="true" signature="4741:4770" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="require.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book_mall/require.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -432,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -439,6 +263,11 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="book_mall" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -455,7 +284,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545386672053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="书城完成">
+      <created>1545828919226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545828919226</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -673,7 +508,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53376204" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42926046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2025417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -724,7 +559,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用户订单" />
     <MESSAGE value="书城初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="书城初始化" />
+    <MESSAGE value="书城完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="书城完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +569,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/verifications/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -922,27 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/3.html" />
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/2.html" />
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/1.html" />
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-837">
@@ -1066,14 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/143.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/143.html" />
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
@@ -1103,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front_end_pc/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="264">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
             <marker date="1545748575626" expanded="true" signature="2307:2329" ph="{...}" />
             <marker date="1545748575626" expanded="true" signature="2401:2426" ph="{...}" />
@@ -1113,6 +917,14 @@
             <marker date="1545748575626" expanded="true" signature="4269:4295" ph="{...}" />
             <marker date="1545748575626" expanded="true" signature="4741:4770" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/require.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
