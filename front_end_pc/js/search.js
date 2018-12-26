@@ -7,7 +7,7 @@ var vm = new Vue({
         user_id: sessionStorage.user_id || localStorage.user_id,
         token: sessionStorage.token || localStorage.token,
         page: 1, // 当前页数
-        page_size: 6, // 每页数量
+        page_size: 18, // 每页数量
         count: 0,  // 总数量
         skus: [], // 数据
         query: '',  // 查询关键字
