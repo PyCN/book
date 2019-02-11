@@ -98,6 +98,8 @@ html,body{height:100%}
 	z-index:9999;
 	border-bottom:1px solid #fff;
 }
+
+
 .guest_cart:hover .cart_goods_show{
 	display:block;
 }
@@ -123,10 +125,13 @@ html,body{height:100%}
 	height:50px;
 }
 .cart_goods_show li h4{
+	width: 220px;
 	float:left;
 	line-height:70px;
 	font-size:12px;
 	margin-left:20px;
+	height:70px;
+
 }
 .cart_goods_show li div{
 	float:right;
@@ -134,6 +139,7 @@ html,body{height:100%}
 	font-size:13px;
 	margin-right:20px;
 }
+/*.cart_img{font-size:12px;color:#666;font-weight:normal;line-height:24px;width:160px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:block;margin:0 auto;}*/
 /* 菜单、幻灯片样式 */
 
 .navbar_con{height:30px;border-bottom:1px solid #ddd;background:#f9f9f9}
@@ -188,7 +194,7 @@ html,body{height:100%}
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin-left:-800px;
+	margin-left:-600px;
 }
 
 
@@ -236,7 +242,7 @@ html,body{height:100%}
 }
 .sub_menu li .level2{
 	background:#fbf1f5;
-	width:770px;
+	width:1100px;
 	height:320px;
 	padding:15px;
 	position:absolute;
@@ -249,20 +255,22 @@ html,body{height:100%}
 }
 .list_group{
 	overflow:hidden;
+	background:#fbf1f5;
 }
 .group_name{
-	width:80px;
-	text-align:right;
+	width:200px;
+	text-align:left;
 	font-size:14px;
 	line-height:24px;
 	font-weight:bold;
 	padding-right:20px;
 }
 .group_detail{
-	width:630px;
+	width:1100px;
 	padding-bottom:5px;
 	border-bottom:1px dotted #999;
 	margin-bottom:10px;
+	background:#fbf1f5;
 }
 .group_detail a{
 	font-size:14px;
@@ -342,7 +350,7 @@ html,body{height:100%}
 .goods_banner{width:210px;height:450px;}
 .goods_banner img{width:210px;height:315px;}
 
-.goods_list{width:990px;height:450px;}
+.goods_list{width:1188px;height:450px;}
 .goods_list li{height:224px;width:197px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left}
 .goods_list .goods_pic{width:130px;height:130px;display:block;margin:20px auto 0;}
 
@@ -554,9 +562,10 @@ html,body{height:100%}
 }
 
 .goods_type_list li{
-	width:196px;
+	width:194px;
 	float:left;
-	margin-bottom:10px
+	/*margin-bottom:10px*/
+	border: 1px solid #ededed;
 }
 
 .goods_type_list li img{width:160px;height:160px;display:block;margin:10px auto;}

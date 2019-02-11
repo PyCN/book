@@ -11,11 +11,28 @@ var vm = new Vue({
         f1_tab: 1, // 1F 标签页控制
         f2_tab: 1, // 2F 标签页控制
         f3_tab: 1, // 3F 标签页控制
+        keywords: [],//关键字
     },
     mounted: function(){
         this.get_cart();
+        this.get_keyword();
     },
     methods: {
+        get_keyword_url:function (name) {
+          return "/search.html?q="+name;
+        },
+        // 请求查询结果
+        get_keyword: function () {
+            axios.get(this.host+'/keyword/', {
+                responseType:'json'
+            })
+            .then(response => {
+                this.keywords = response.data;
+            })
+            .catch(error => {
+                console.log(error.response.data)
+            });
+        },
         // 退出
         logout: function(){
             sessionStorage.clear();

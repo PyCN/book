@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from .models import GoodsChannel
+from .models import Channel
 
 
 def get_categories():
@@ -53,7 +53,7 @@ def get_categories():
     #         categories[group_id]['sub_cats'].append(cat2)
     # return categories
     categories = OrderedDict()
-    channels = GoodsChannel.objects.order_by('group_id', 'sequence')
+    channels = Channel.objects.order_by('group_id', 'sequence')
     for channel in channels:
         group_id = channel.group_id  # 当前组
 
@@ -69,10 +69,10 @@ def get_categories():
             'url': channel.url
         })
         # 构建当前类别的子类别
-        for cat2 in cat1.goodscategory_set.all():
+        for cat2 in cat1.category_set.all():
             sub_cats = {'name': "", 'sub_cats': []}
             sub_cats['name'] = cat2.name
-            for cat3 in cat2.goodscategory_set.all():
+            for cat3 in cat2.category_set.all():
                 sub_cats['sub_cats'].append({
                     'id': cat3.id,
                     'name': cat3.name,

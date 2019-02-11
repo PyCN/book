@@ -30,7 +30,7 @@ SECRET_KEY = 'f^6qw-g1xh&=a!^!81r1&r0qblm89vnz#h0!e0$z9)^ghu_-7+'
 DEBUG = True
 
 # 增加访问后端的域名
-ALLOWED_HOSTS = ['api.book.site', '127.0.0.1', 'localhost', 'www.xiaoxiao.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -103,7 +103,7 @@ WSGI_APPLICATION = 'book_mall.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',  # 数据库主机
+        'HOST': '192.168.93.144',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'book',  # 数据库用户名
         'PASSWORD': 'book',  # 数据库用户密码
@@ -342,7 +342,7 @@ CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
-        'URL': 'http://192.168.93.143:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
+        'URL': 'http://192.168.93.144:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
         'INDEX_NAME': 'book',  # 指定elasticsearch建立的索引库的名称
     },
 }

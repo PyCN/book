@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/book_mall" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/book_mall/book_mall/apps" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.5.2 virtualenv at ~/.virtualenvs/py3_django_1.11" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6.4 virtualenv at C:\Users\Administrator\Envs\py3_book" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

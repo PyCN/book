@@ -1,8 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>美多商城-首页</title>
+    <title>潇潇书城-首页</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="js/host.js"></script>
@@ -12,10 +13,10 @@
     <script type="text/javascript" src="js/slide.js"></script>
 </head>
 <body>
-    <div id="app" v-cloak>
+<div id="app" v-cloak>
     <div class="header_con">
         <div class="header">
-            <div class="welcome fl">欢迎来到美多商城!</div>
+            <div class="welcome fl">欢迎来到潇潇书城!</div>
             <div class="fr">
                 <div v-if="username" class="login_btn fl">
                     欢迎您：<em>[[ username ]]</em>
@@ -47,10 +48,7 @@
                 <input type="submit" class="input_btn fr" name="" value="搜索">
             </form>
             <ul class="search_suggest fl">
-                <li><a href="#">索尼微单</a></li>
-                <li><a href="#">优惠15元</a></li>
-                <li><a href="#">美妆个护</a></li>
-                <li><a href="#">买2免1</a></li>
+                <li v-for="keyword in keywords"><a :href="get_keyword_url(keyword.name)">[[ keyword.name ]]</a></li>
             </ul>
         </div>
 
@@ -61,7 +59,7 @@
             <ul class="cart_goods_show">
                 <li v-for="sku in cart">
                     <a href="/cart.html"><img :src="sku.default_image_url" alt="商品图片"></a>
-                    <a href="/cart.html" style="color: #999"><h4>[[sku.name]]</h4></a>
+                    <a href="/cart.html"><h4>[[sku.name]]</h4></a>
                     <div>[[sku.count]]</div>
                 </li>
             </ul>
@@ -84,9 +82,13 @@
     <div class="pos_center_con clearfix">
         <ul class="slide">
             
-            <li><a href="232323"><img src="http://image.book.com:8888/group1/M00/00/02/wKhdj1wiGdWAMnOtABB4oGYFNZU9115810" alt="233"></a></li>
+                <li><a href="/"><img src="http://image.book.com:8888/group1\M00/00/03/wKhdkFxG29qAVBzbAAMHDHs868o4220606" alt="美女的世界"></a></li>
             
-            <li><a href="2323"><img src="http://image.book.com:8888/group1/M00/00/02/wKhdj1wiGfeANS8RAAG8q3OE0l83329916" alt="232"></a></li>
+                <li><a href="/"><img src="http://image.book.com:8888/group1\M00/00/03/wKhdkFxG2-eARyYxAAG0Y7PaBME1832562" alt="美女的世界"></a></li>
+            
+                <li><a href="/"><img src="http://image.book.com:8888/group1\M00/00/03/wKhdkFxG2_OAKin8AALTxmjw_vg9595946" alt="美女的世界"></a></li>
+            
+                <li><a href="/"><img src="http://image.book.com:8888/group1\M00/00/03/wKhdkFxG3ACAJ3t_AAL4SzulIn46509669" alt="美女的世界"></a></li>
             
         </ul>
         <div class="prev"></div>
@@ -99,1192 +101,292 @@
         </ul>
         <ul class="sub_menu">
             
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">文学综合馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">小说 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=15">中国当代小说</a>
-                            
-                            <a href="/list.html?cat=16">中国近现代小说</a>
-                            
-                            <a href="/list.html?cat=17">中国古典小说</a>
-                            
-                            <a href="/list.html?cat=18">四大名著</a>
-                            
-                            <a href="/list.html?cat=19">港澳台小说</a>
-                            
-                            <a href="/list.html?cat=20">穿越/重生/架空</a>
-                            
-                            <a href="/list.html?cat=21">外国小说</a>
-                            
-                            <a href="/list.html?cat=22">侦探/悬疑/推理</a>
-                            
-                            <a href="/list.html?cat=23">惊悚/恐怖</a>
-                            
-                            <a href="/list.html?cat=24">科幻小说</a>
-                            
-                            <a href="/list.html?cat=25">魔幻/奇幻/玄幻</a>
-                            
-                            <a href="/list.html?cat=26">武侠</a>
-                            
-                            <a href="/list.html?cat=27">军事</a>
-                            
-                            <a href="/list.html?cat=28">情感/家庭/婚姻</a>
-                            
-                            <a href="/list.html?cat=29">宫廷</a>
-                            
-                            <a href="/list.html?cat=31">都市</a>
-                            
-                            <a href="/list.html?cat=32">乡土</a>
-                            
-                            <a href="/list.html?cat=33">职场</a>
-                            
-                            <a href="/list.html?cat=34">财经</a>
-                            
-                            <a href="/list.html?cat=35">官场</a>
-                            
-                            <a href="/list.html?cat=37">影视小说</a>
-                            
-                            <a href="/list.html?cat=39">世界名著</a>
-                            
-                        </div>
+                <li>
+                    <div class="level1">
+                        
+                            <a href="/">文学</a>
+                        
+                            <a href="/">小说</a>
+                        
+                            <a href="/">传记</a>
+                        
                     </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">文学 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=13">散文/随笔/书信</a>
-                            
-                            <a href="/list.html?cat=38">作品集</a>
-                            
-                            <a href="/list.html?cat=40">期刊杂志</a>
-                            
-                            <a href="/list.html?cat=41">诗歌词曲</a>
-                            
-                            <a href="/list.html?cat=42">中国文学</a>
-                            
-                            <a href="/list.html?cat=43">外国文学</a>
-                            
-                            <a href="/list.html?cat=44">名家作品</a>
-                            
-                            <a href="/list.html?cat=46">纪实文学</a>
-                            
-                            <a href="/list.html?cat=47">民间文学</a>
-                            
-                            <a href="/list.html?cat=48">影视文学</a>
-                            
-                            <a href="/list.html?cat=49">戏剧曲艺</a>
-                            
-                            <a href="/list.html?cat=50">文学理论</a>
-                            
-                            <a href="/list.html?cat=51">文学史</a>
-                            
-                            <a href="/list.html?cat=52">文学评论与研究</a>
-                            
-                        </div>
+                    <div class="level2">
+                        
+                            <div class="list_group">
+                                <div class="group_name fl">青春文学 &gt;</div>
+                                <div class="group_detail fl">
+                                    
+                                        <a href="/list.html?cat=865">韩国青春文学</a>
+                                    
+                                        <a href="/list.html?cat=866">玄幻/科幻/新武侠</a>
+                                    
+                                        <a href="/list.html?cat=867">悬疑/惊悚</a>
+                                    
+                                        <a href="/list.html?cat=869">大陆原创</a>
+                                    
+                                        <a href="/list.html?cat=870">娱乐/偶像</a>
+                                    
+                                        <a href="/list.html?cat=871">爆笑/无厘头</a>
+                                    
+                                        <a href="/list.html?cat=872">古代言情</a>
+                                    
+                                        <a href="/list.html?cat=873">其他国外青春文学</a>
+                                    
+                                        <a href="/list.html?cat=874">叛逆/成长</a>
+                                    
+                                        <a href="/list.html?cat=875">爱情/情感</a>
+                                    
+                                        <a href="/list.html?cat=876">港台青春文学</a>
+                                    
+                                        <a href="/list.html?cat=879">校园</a>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="list_group">
+                                <div class="group_name fl">文学 &gt;</div>
+                                <div class="group_detail fl">
+                                    
+                                        <a href="/list.html?cat=782">儿童文学</a>
+                                    
+                                        <a href="/list.html?cat=881">文学评论与研究</a>
+                                    
+                                        <a href="/list.html?cat=882">戏剧曲艺</a>
+                                    
+                                        <a href="/list.html?cat=883">文学史</a>
+                                    
+                                        <a href="/list.html?cat=884">影视文学</a>
+                                    
+                                        <a href="/list.html?cat=885">文学理论</a>
+                                    
+                                        <a href="/list.html?cat=886">名家作品</a>
+                                    
+                                        <a href="/list.html?cat=887">外国文学</a>
+                                    
+                                        <a href="/list.html?cat=888">纪实文学</a>
+                                    
+                                        <a href="/list.html?cat=889">民间文学</a>
+                                    
+                                        <a href="/list.html?cat=890">期刊杂志</a>
+                                    
+                                        <a href="/list.html?cat=891">作品集</a>
+                                    
+                                        <a href="/list.html?cat=893">散文/随笔/书信</a>
+                                    
+                                        <a href="/list.html?cat=894">诗歌词曲</a>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="list_group">
+                                <div class="group_name fl">小说 &gt;</div>
+                                <div class="group_detail fl">
+                                    
+                                        <a href="/list.html?cat=2">魔幻/奇幻/玄幻</a>
+                                    
+                                        <a href="/list.html?cat=3">四大名著</a>
+                                    
+                                        <a href="/list.html?cat=4">惊悚/恐怖</a>
+                                    
+                                        <a href="/list.html?cat=5">乡土</a>
+                                    
+                                        <a href="/list.html?cat=6">职场</a>
+                                    
+                                        <a href="/list.html?cat=67">社会</a>
+                                    
+                                        <a href="/list.html?cat=133">历史</a>
+                                    
+                                        <a href="/list.html?cat=226">都市</a>
+                                    
+                                        <a href="/list.html?cat=227">中国古典小说</a>
+                                    
+                                        <a href="/list.html?cat=230">中国近现代小说</a>
+                                    
+                                        <a href="/list.html?cat=240">财经</a>
+                                    
+                                        <a href="/list.html?cat=252">侦探/悬疑/推理</a>
+                                    
+                                        <a href="/list.html?cat=253">科幻小说</a>
+                                    
+                                        <a href="/list.html?cat=280">中国当代小说</a>
+                                    
+                                        <a href="/list.html?cat=281">港澳台小说</a>
+                                    
+                                        <a href="/list.html?cat=282">穿越/重生/架空</a>
+                                    
+                                        <a href="/list.html?cat=283">外国小说</a>
+                                    
+                                        <a href="/list.html?cat=892">世界名著</a>
+                                    
+                                        <a href="/list.html?cat=895">影视小说</a>
+                                    
+                                        <a href="/list.html?cat=896">军事</a>
+                                    
+                                        <a href="/list.html?cat=897">官场</a>
+                                    
+                                        <a href="/list.html?cat=898">武侠</a>
+                                    
+                                        <a href="/list.html?cat=899">宫廷</a>
+                                    
+                                        <a href="/list.html?cat=900">情感/家庭/婚姻</a>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="list_group">
+                                <div class="group_name fl">传记 &gt;</div>
+                                <div class="group_detail fl">
+                                    
+                                        <a href="/list.html?cat=843">家族研究与传记</a>
+                                    
+                                        <a href="/list.html?cat=844">姓氏谱系</a>
+                                    
+                                        <a href="/list.html?cat=845">社会百相</a>
+                                    
+                                        <a href="/list.html?cat=846">自传</a>
+                                    
+                                        <a href="/list.html?cat=847">学者</a>
+                                    
+                                        <a href="/list.html?cat=848">哲学家</a>
+                                    
+                                        <a href="/list.html?cat=849">国学大师</a>
+                                    
+                                        <a href="/list.html?cat=850">人物合集</a>
+                                    
+                                        <a href="/list.html?cat=851">建筑师/设计师</a>
+                                    
+                                        <a href="/list.html?cat=852">艺术家</a>
+                                    
+                                        <a href="/list.html?cat=853">宗教人物</a>
+                                    
+                                        <a href="/list.html?cat=854">体坛之星</a>
+                                    
+                                        <a href="/list.html?cat=855">女性人物</a>
+                                    
+                                        <a href="/list.html?cat=856">文娱明星</a>
+                                    
+                                        <a href="/list.html?cat=857">文学家</a>
+                                    
+                                        <a href="/list.html?cat=858">科学家</a>
+                                    
+                                        <a href="/list.html?cat=859">教育家</a>
+                                    
+                                        <a href="/list.html?cat=860">财经人物</a>
+                                    
+                                        <a href="/list.html?cat=861">政治人物</a>
+                                    
+                                        <a href="/list.html?cat=862">领袖首脑</a>
+                                    
+                                        <a href="/list.html?cat=863">历史人物</a>
+                                    
+                                        <a href="/list.html?cat=868">军事人物</a>
+                                    
+                                        <a href="/list.html?cat=877">经典传记</a>
+                                    
+                                        <a href="/list.html?cat=878">历代帝王</a>
+                                    
+                                </div>
+                            </div>
+                        
                     </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">青春文学 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=54">校园</a>
-                            
-                            <a href="/list.html?cat=55">爱情/情感</a>
-                            
-                            <a href="/list.html?cat=56">古代言情</a>
-                            
-                            <a href="/list.html?cat=57">叛逆/成长</a>
-                            
-                            <a href="/list.html?cat=58">悬疑/惊悚</a>
-                            
-                            <a href="/list.html?cat=61">娱乐/偶像</a>
-                            
-                            <a href="/list.html?cat=62">爆笑/无厘头</a>
-                            
-                            <a href="/list.html?cat=63">玄幻/科幻/新武侠</a>
-                            
-                            <a href="/list.html?cat=64">大陆原创</a>
-                            
-                            <a href="/list.html?cat=65">港台青春文学</a>
-                            
-                            <a href="/list.html?cat=66">韩国青春文学</a>
-                            
-                            <a href="/list.html?cat=67">其他国外青春文学</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">传记 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=60">历史人物</a>
-                            
-                            <a href="/list.html?cat=68">经典传记</a>
-                            
-                            <a href="/list.html?cat=69">历代帝王</a>
-                            
-                            <a href="/list.html?cat=70">领袖首脑</a>
-                            
-                            <a href="/list.html?cat=71">军事人物</a>
-                            
-                            <a href="/list.html?cat=72">政治人物</a>
-                            
-                            <a href="/list.html?cat=73">财经人物</a>
-                            
-                            <a href="/list.html?cat=74">宗教人物</a>
-                            
-                            <a href="/list.html?cat=75">女性人物</a>
-                            
-                            <a href="/list.html?cat=76">体坛之星</a>
-                            
-                            <a href="/list.html?cat=77">文娱明星</a>
-                            
-                            <a href="/list.html?cat=78">科学家</a>
-                            
-                            <a href="/list.html?cat=79">建筑师/设计师</a>
-                            
-                            <a href="/list.html?cat=80">艺术家</a>
-                            
-                            <a href="/list.html?cat=81">文学家</a>
-                            
-                            <a href="/list.html?cat=82">哲学家</a>
-                            
-                            <a href="/list.html?cat=83">国学大师</a>
-                            
-                            <a href="/list.html?cat=84">学者</a>
-                            
-                            <a href="/list.html?cat=85">自传</a>
-                            
-                            <a href="/list.html?cat=86">教育家</a>
-                            
-                            <a href="/list.html?cat=87">人物合集</a>
-                            
-                            <a href="/list.html?cat=88">社会百相</a>
-                            
-                            <a href="/list.html?cat=89">家族研究与传记</a>
-                            
-                            <a href="/list.html?cat=90">姓氏谱系</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">动漫 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=136">连环画</a>
-                            
-                            <a href="/list.html?cat=155">绘本</a>
-                            
-                            <a href="/list.html?cat=349">日本动漫</a>
-                            
-                            <a href="/list.html?cat=350">大陆动漫</a>
-                            
-                            <a href="/list.html?cat=351">欧美动漫</a>
-                            
-                            <a href="/list.html?cat=352">港台动漫</a>
-                            
-                            <a href="/list.html?cat=353">其他国外动漫</a>
-                            
-                            <a href="/list.html?cat=354">轻小说</a>
-                            
-                            <a href="/list.html?cat=355">爆笑漫画</a>
-                            
-                            <a href="/list.html?cat=356">动漫学堂</a>
-                            
-                            <a href="/list.html?cat=357">游戏/动漫同人漫画</a>
-                            
-                            <a href="/list.html?cat=358">名著漫画版</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
-            
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">童书馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">童书 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=45">儿童文学</a>
-                            
-                            <a href="/list.html?cat=154">科普/百科</a>
-                            
-                            <a href="/list.html?cat=156">手工/游戏</a>
-                            
-                            <a href="/list.html?cat=157">幼儿启蒙</a>
-                            
-                            <a href="/list.html?cat=158">智力开发</a>
-                            
-                            <a href="/list.html?cat=159">动漫/卡通</a>
-                            
-                            <a href="/list.html?cat=160">玩具书</a>
-                            
-                            <a href="/list.html?cat=161">励志/成长</a>
-                            
-                            <a href="/list.html?cat=162">学前教育</a>
-                            
-                            <a href="/list.html?cat=163">音乐/舞蹈</a>
-                            
-                            <a href="/list.html?cat=164">美术/书法</a>
-                            
-                            <a href="/list.html?cat=165">少儿国学</a>
-                            
-                            <a href="/list.html?cat=166">少儿英语</a>
-                            
-                            <a href="/list.html?cat=167">笑话/幽默</a>
-                            
-                            <a href="/list.html?cat=168">AR/VR</a>
-                            
-                            <a href="/list.html?cat=169">0-2岁</a>
-                            
-                            <a href="/list.html?cat=170">3-6岁</a>
-                            
-                            <a href="/list.html?cat=171">7-10岁</a>
-                            
-                            <a href="/list.html?cat=172">11-14岁</a>
-                            
-                            <a href="/list.html?cat=173">儿童期刊</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
-            
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">教育馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">中小学教辅 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=92">字帖</a>
-                            
-                            <a href="/list.html?cat=690">小学一年级</a>
-                            
-                            <a href="/list.html?cat=691">小学二年级</a>
-                            
-                            <a href="/list.html?cat=692">小学三年级</a>
-                            
-                            <a href="/list.html?cat=693">小学四年级</a>
-                            
-                            <a href="/list.html?cat=694">小学五年级</a>
-                            
-                            <a href="/list.html?cat=695">小学六年级</a>
-                            
-                            <a href="/list.html?cat=696">小学通用</a>
-                            
-                            <a href="/list.html?cat=697">小学升初中</a>
-                            
-                            <a href="/list.html?cat=698">初一/七年级</a>
-                            
-                            <a href="/list.html?cat=699">初二/八年级</a>
-                            
-                            <a href="/list.html?cat=700">初三/九年级</a>
-                            
-                            <a href="/list.html?cat=701">初中通用</a>
-                            
-                            <a href="/list.html?cat=702">中考</a>
-                            
-                            <a href="/list.html?cat=703">高一</a>
-                            
-                            <a href="/list.html?cat=704">高二</a>
-                            
-                            <a href="/list.html?cat=705">高三</a>
-                            
-                            <a href="/list.html?cat=706">高中通用</a>
-                            
-                            <a href="/list.html?cat=707">高考</a>
-                            
-                            <a href="/list.html?cat=708">中小学作文辅导</a>
-                            
-                            <a href="/list.html?cat=709">奥数/竞赛</a>
-                            
-                            <a href="/list.html?cat=710">中小学课外读物</a>
-                            
-                            <a href="/list.html?cat=712">教师用书</a>
-                            
-                            <a href="/list.html?cat=713">幼小衔接</a>
-                            
-                            <a href="/list.html?cat=714">学习方法/报考指南</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">大中专教材教辅 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=716">大学教材</a>
-                            
-                            <a href="/list.html?cat=717">研究生教材</a>
-                            
-                            <a href="/list.html?cat=718">高职高专教材</a>
-                            
-                            <a href="/list.html?cat=719">中职中专教材</a>
-                            
-                            <a href="/list.html?cat=720">成人教育教材</a>
-                            
-                            <a href="/list.html?cat=721">竞赛</a>
-                            
-                            <a href="/list.html?cat=722">职业培训教材</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">考试 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=461">司法考试</a>
-                            
-                            <a href="/list.html?cat=724">国家公务员</a>
-                            
-                            <a href="/list.html?cat=725">地方公务员</a>
-                            
-                            <a href="/list.html?cat=726">事业单位考试</a>
-                            
-                            <a href="/list.html?cat=727">考研政治</a>
-                            
-                            <a href="/list.html?cat=729">考研数学</a>
-                            
-                            <a href="/list.html?cat=730">考研专业课</a>
-                            
-                            <a href="/list.html?cat=731">会计类考试</a>
-                            
-                            <a href="/list.html?cat=732">证券从业资格考试</a>
-                            
-                            <a href="/list.html?cat=733">其他经管类考试</a>
-                            
-                            <a href="/list.html?cat=734">计算机考试</a>
-                            
-                            <a href="/list.html?cat=735">医学类考试</a>
-                            
-                            <a href="/list.html?cat=736">工程类考试</a>
-                            
-                            <a href="/list.html?cat=737">汉语/小语种考试</a>
-                            
-                            <a href="/list.html?cat=738">同等学力考试</a>
-                            
-                            <a href="/list.html?cat=739">MBA/MPA/MPACC</a>
-                            
-                            <a href="/list.html?cat=740">GCT（工程硕士）联考</a>
-                            
-                            <a href="/list.html?cat=741">法硕/金融联考</a>
-                            
-                            <a href="/list.html?cat=742">在职硕士考试</a>
-                            
-                            <a href="/list.html?cat=743">博士生入学考试</a>
-                            
-                            <a href="/list.html?cat=744">成人高考/自考</a>
-                            
-                            <a href="/list.html?cat=745">其他资格/职称考试</a>
-                            
-                            <a href="/list.html?cat=746">银行类考试</a>
-                            
-                            <a href="/list.html?cat=747">注册税务师</a>
-                            
-                            <a href="/list.html?cat=748">教师类考试</a>
-                            
-                            <a href="/list.html?cat=749">人力资源管理师考试</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">外语学习 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=728">考研英语</a>
-                            
-                            <a href="/list.html?cat=751">英语读物</a>
-                            
-                            <a href="/list.html?cat=752">生活实用英语</a>
-                            
-                            <a href="/list.html?cat=753">英语口语</a>
-                            
-                            <a href="/list.html?cat=754">英语词汇</a>
-                            
-                            <a href="/list.html?cat=755">英语专项训练</a>
-                            
-                            <a href="/list.html?cat=756">英语综合教程</a>
-                            
-                            <a href="/list.html?cat=757">职称英语</a>
-                            
-                            <a href="/list.html?cat=758">职业/行业英语</a>
-                            
-                            <a href="/list.html?cat=759">英语四/六级考试（CET-4/6）</a>
-                            
-                            <a href="/list.html?cat=760">英语专业四/八级考试</a>
-                            
-                            <a href="/list.html?cat=761">雅思IELTS</a>
-                            
-                            <a href="/list.html?cat=762">托福TOEFL</a>
-                            
-                            <a href="/list.html?cat=763">托业TOEIC</a>
-                            
-                            <a href="/list.html?cat=764">剑桥商务英语考试BEC</a>
-                            
-                            <a href="/list.html?cat=765">GRE/GMAT</a>
-                            
-                            <a href="/list.html?cat=766">高校英语应用能力考试</a>
-                            
-                            <a href="/list.html?cat=767">全国公共英语等级考试（PETS）</a>
-                            
-                            <a href="/list.html?cat=768">其它英语考试</a>
-                            
-                            <a href="/list.html?cat=769">词典与工具书</a>
-                            
-                            <a href="/list.html?cat=770">中小学英语</a>
-                            
-                            <a href="/list.html?cat=771">儿童英语</a>
-                            
-                            <a href="/list.html?cat=772">研究生英语</a>
-                            
-                            <a href="/list.html?cat=773">大学英语</a>
-                            
-                            <a href="/list.html?cat=774">高职高专英语</a>
-                            
-                            <a href="/list.html?cat=775">意大利语</a>
-                            
-                            <a href="/list.html?cat=776">老外读本</a>
-                            
-                            <a href="/list.html?cat=777">日语</a>
-                            
-                            <a href="/list.html?cat=778">韩语</a>
-                            
-                            <a href="/list.html?cat=779">德语</a>
-                            
-                            <a href="/list.html?cat=780">俄语</a>
-                            
-                            <a href="/list.html?cat=781">法语</a>
-                            
-                            <a href="/list.html?cat=782">西班牙语</a>
-                            
-                            <a href="/list.html?cat=783">其他小语种</a>
-                            
-                            <a href="/list.html?cat=784">对外汉语</a>
-                            
-                            <a href="/list.html?cat=785">留学指南</a>
-                            
-                            <a href="/list.html?cat=786">外语期刊</a>
-                            
-                            <a href="/list.html?cat=787">外语教学/学术著作</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">字典词典/工具书 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=711">中小学工具书</a>
-                            
-                            <a href="/list.html?cat=789">汉语字典</a>
-                            
-                            <a href="/list.html?cat=790">汉语词典</a>
-                            
-                            <a href="/list.html?cat=791">成语词典</a>
-                            
-                            <a href="/list.html?cat=792">英汉/汉英词典</a>
-                            
-                            <a href="/list.html?cat=793">日语词典</a>
-                            
-                            <a href="/list.html?cat=794">韩语词典</a>
-                            
-                            <a href="/list.html?cat=795">德语词典</a>
-                            
-                            <a href="/list.html?cat=796">法语词典</a>
-                            
-                            <a href="/list.html?cat=797">其他语种词典</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
-            
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">人文社科馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">历史 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=359">中国史</a>
-                            
-                            <a href="/list.html?cat=360">世界史</a>
-                            
-                            <a href="/list.html?cat=361">史家名著</a>
-                            
-                            <a href="/list.html?cat=362">通俗说史</a>
-                            
-                            <a href="/list.html?cat=363">地方史志</a>
-                            
-                            <a href="/list.html?cat=364">逸闻野史</a>
-                            
-                            <a href="/list.html?cat=365">历史热点</a>
-                            
-                            <a href="/list.html?cat=366">文物考古</a>
-                            
-                            <a href="/list.html?cat=367">风俗习惯</a>
-                            
-                            <a href="/list.html?cat=368">史学理论</a>
-                            
-                            <a href="/list.html?cat=369">历史研究与评论</a>
-                            
-                            <a href="/list.html?cat=370">民族史</a>
-                            
-                            <a href="/list.html?cat=371">历史工具书</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">心理学 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=341">心理健康</a>
-                            
-                            <a href="/list.html?cat=373">大众心理学</a>
-                            
-                            <a href="/list.html?cat=374">社会心理学</a>
-                            
-                            <a href="/list.html?cat=375">人格心理学</a>
-                            
-                            <a href="/list.html?cat=376">心理咨询与治疗</a>
-                            
-                            <a href="/list.html?cat=377">女性心理学</a>
-                            
-                            <a href="/list.html?cat=378">变态/病态心理学</a>
-                            
-                            <a href="/list.html?cat=379">应用心理学</a>
-                            
-                            <a href="/list.html?cat=380">儿童/青少年心理学</a>
-                            
-                            <a href="/list.html?cat=381">心理学理论</a>
-                            
-                            <a href="/list.html?cat=382">心理学研究方法</a>
-                            
-                            <a href="/list.html?cat=383">心理百科</a>
-                            
-                            <a href="/list.html?cat=384">心灵疗愈/催眠</a>
-                            
-                            <a href="/list.html?cat=385">生理心理学</a>
-                            
-                            <a href="/list.html?cat=386">性格色彩学</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">政治/军事 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=388">政治经典著作</a>
-                            
-                            <a href="/list.html?cat=389">世界政治</a>
-                            
-                            <a href="/list.html?cat=390">中国共产党</a>
-                            
-                            <a href="/list.html?cat=391">中国政治</a>
-                            
-                            <a href="/list.html?cat=392">党政读物</a>
-                            
-                            <a href="/list.html?cat=393">各国共产党</a>
-                            
-                            <a href="/list.html?cat=394">各国政治</a>
-                            
-                            <a href="/list.html?cat=395">外交、国际关系</a>
-                            
-                            <a href="/list.html?cat=396">工人、农民、青年、妇女运动与组织</a>
-                            
-                            <a href="/list.html?cat=397">政治热点</a>
-                            
-                            <a href="/list.html?cat=398">政治理论</a>
-                            
-                            <a href="/list.html?cat=399">公共管理</a>
-                            
-                            <a href="/list.html?cat=400">政治考试和教材</a>
-                            
-                            <a href="/list.html?cat=401">马克思主义理论</a>
-                            
-                            <a href="/list.html?cat=402">经典军事著作</a>
-                            
-                            <a href="/list.html?cat=403">中国军事</a>
-                            
-                            <a href="/list.html?cat=404">世界军事</a>
-                            
-                            <a href="/list.html?cat=405">军事理论</a>
-                            
-                            <a href="/list.html?cat=406">军事技术</a>
-                            
-                            <a href="/list.html?cat=407">战略战术战役</a>
-                            
-                            <a href="/list.html?cat=408">武器装备</a>
-                            
-                            <a href="/list.html?cat=409">反恐</a>
-                            
-                            <a href="/list.html?cat=410">军事教材</a>
-                            
-                            <a href="/list.html?cat=411">军事文学</a>
-                            
-                            <a href="/list.html?cat=412">军事史</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">国学/古籍 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=414">经部</a>
-                            
-                            <a href="/list.html?cat=415">史部</a>
-                            
-                            <a href="/list.html?cat=416">子部</a>
-                            
-                            <a href="/list.html?cat=417">集部</a>
-                            
-                            <a href="/list.html?cat=418">古籍整理</a>
-                            
-                            <a href="/list.html?cat=419">四库全书</a>
-                            
-                            <a href="/list.html?cat=420">国学名家</a>
-                            
-                            <a href="/list.html?cat=421">线装书</a>
-                            
-                            <a href="/list.html?cat=422">礼品书</a>
-                            
-                            <a href="/list.html?cat=423">国学普及读物</a>
-                            
-                            <a href="/list.html?cat=424">书目辞典</a>
-                            
-                            <a href="/list.html?cat=425">古籍工具书</a>
-                            
-                            <a href="/list.html?cat=426">古籍善本影印本</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">哲学/宗教 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=428">哲学经典著作</a>
-                            
-                            <a href="/list.html?cat=429">中国哲学</a>
-                            
-                            <a href="/list.html?cat=430">东方哲学</a>
-                            
-                            <a href="/list.html?cat=431">西方哲学</a>
-                            
-                            <a href="/list.html?cat=432">哲学理论与流派</a>
-                            
-                            <a href="/list.html?cat=433">马克思哲学</a>
-                            
-                            <a href="/list.html?cat=434">思维科学</a>
-                            
-                            <a href="/list.html?cat=435">美学</a>
-                            
-                            <a href="/list.html?cat=436">逻辑学</a>
-                            
-                            <a href="/list.html?cat=437">伦理学</a>
-                            
-                            <a href="/list.html?cat=438">哲学史</a>
-                            
-                            <a href="/list.html?cat=439">宗教普及读物</a>
-                            
-                            <a href="/list.html?cat=440">宗教经典著作</a>
-                            
-                            <a href="/list.html?cat=441">佛教原典</a>
-                            
-                            <a href="/list.html?cat=442">佛教研究著作</a>
-                            
-                            <a href="/list.html?cat=443">藏传佛教</a>
-                            
-                            <a href="/list.html?cat=444">佛教名家作品</a>
-                            
-                            <a href="/list.html?cat=445">宗教术数</a>
-                            
-                            <a href="/list.html?cat=446">基督教</a>
-                            
-                            <a href="/list.html?cat=447">宗教艺术</a>
-                            
-                            <a href="/list.html?cat=448">犹太教</a>
-                            
-                            <a href="/list.html?cat=449">宗教理论与概况</a>
-                            
-                            <a href="/list.html?cat=450">天主教</a>
-                            
-                            <a href="/list.html?cat=451">宗教神话与传说</a>
-                            
-                            <a href="/list.html?cat=452">道教</a>
-                            
-                            <a href="/list.html?cat=453">其他宗教</a>
-                            
-                            <a href="/list.html?cat=454">伊斯兰教</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">法律 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=456">理论法学</a>
-                            
-                            <a href="/list.html?cat=457">法律史</a>
-                            
-                            <a href="/list.html?cat=458">刑法</a>
-                            
-                            <a href="/list.html?cat=459">司法制度</a>
-                            
-                            <a href="/list.html?cat=460">司法案例与司法解释</a>
-                            
-                            <a href="/list.html?cat=462">商法</a>
-                            
-                            <a href="/list.html?cat=463">国家法、宪法</a>
-                            
-                            <a href="/list.html?cat=464">外国法律与港澳台法律</a>
-                            
-                            <a href="/list.html?cat=465">民法</a>
-                            
-                            <a href="/list.html?cat=466">法学文集</a>
-                            
-                            <a href="/list.html?cat=467">法律工具书</a>
-                            
-                            <a href="/list.html?cat=468">法律教材与法律考试</a>
-                            
-                            <a href="/list.html?cat=469">法律文书写作</a>
-                            
-                            <a href="/list.html?cat=470">法律普及读物</a>
-                            
-                            <a href="/list.html?cat=471">法律期刊</a>
-                            
-                            <a href="/list.html?cat=473">经济法</a>
-                            
-                            <a href="/list.html?cat=474">行政法</a>
-                            
-                            <a href="/list.html?cat=475">国际法</a>
-                            
-                            <a href="/list.html?cat=476">司法鉴定</a>
-                            
-                            <a href="/list.html?cat=477">犯罪学</a>
-                            
-                            <a href="/list.html?cat=478">刑事侦查学（犯罪对策学、犯罪侦查学）</a>
-                            
-                            <a href="/list.html?cat=479">法医学</a>
-                            
-                            <a href="/list.html?cat=480">诉讼法</a>
-                            
-                            <a href="/list.html?cat=481">网络法律法规</a>
-                            
-                            <a href="/list.html?cat=482">法律实务</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">文化 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=484">文化理论</a>
-                            
-                            <a href="/list.html?cat=485">文化史</a>
-                            
-                            <a href="/list.html?cat=486">方针政策及其阐述</a>
-                            
-                            <a href="/list.html?cat=487">文化评述</a>
-                            
-                            <a href="/list.html?cat=488">文化研究</a>
-                            
-                            <a href="/list.html?cat=489">文化交流/文化产业</a>
-                            
-                            <a href="/list.html?cat=490">文化专题研究</a>
-                            
-                            <a href="/list.html?cat=491">地域文化</a>
-                            
-                            <a href="/list.html?cat=492">传统文化</a>
-                            
-                            <a href="/list.html?cat=493">民俗文化</a>
-                            
-                            <a href="/list.html?cat=494">民族文化</a>
-                            
-                            <a href="/list.html?cat=495">文化刊物</a>
-                            
-                            <a href="/list.html?cat=496">世界各国文化</a>
-                            
-                            <a href="/list.html?cat=497">文化随笔</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">社会科学 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=175">经典著作</a>
-                            
-                            <a href="/list.html?cat=500">新闻出版/档案管理</a>
-                            
-                            <a href="/list.html?cat=501">语言文字</a>
-                            
-                            <a href="/list.html?cat=502">人口学</a>
-                            
-                            <a href="/list.html?cat=503">人才学</a>
-                            
-                            <a href="/list.html?cat=504">人类学</a>
-                            
-                            <a href="/list.html?cat=505">社会结构和社会关系</a>
-                            
-                            <a href="/list.html?cat=506">民族学</a>
-                            
-                            <a href="/list.html?cat=507">社会生活与社会问题</a>
-                            
-                            <a href="/list.html?cat=508">社会学</a>
-                            
-                            <a href="/list.html?cat=509">社会调查</a>
-                            
-                            <a href="/list.html?cat=510">社会科学丛书、文集、连续出版物</a>
-                            
-                            <a href="/list.html?cat=511">社会保障</a>
-                            
-                            <a href="/list.html?cat=512">社会科学文献检索</a>
-                            
-                            <a href="/list.html?cat=513">社会科学理论</a>
-                            
-                            <a href="/list.html?cat=514">公共关系</a>
-                            
-                            <a href="/list.html?cat=515">统计学</a>
-                            
-                            <a href="/list.html?cat=516">社区</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
-            
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">经管综合馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">管理 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=200">MBA与工商管理</a>
-                            
-                            <a href="/list.html?cat=201">人力资源管理</a>
-                            
-                            <a href="/list.html?cat=202">创业/商业史传</a>
-                            
-                            <a href="/list.html?cat=203">企业管理与培训</a>
-                            
-                            <a href="/list.html?cat=204">供应链管理</a>
-                            
-                            <a href="/list.html?cat=205">商务实务</a>
-                            
-                            <a href="/list.html?cat=206">市场营销</a>
-                            
-                            <a href="/list.html?cat=207">战略管理</a>
-                            
-                            <a href="/list.html?cat=208">生产与运作管理</a>
-                            
-                            <a href="/list.html?cat=210">管理信息系统</a>
-                            
-                            <a href="/list.html?cat=211">管理学</a>
-                            
-                            <a href="/list.html?cat=212">管理工具书</a>
-                            
-                            <a href="/list.html?cat=213">财务管理</a>
-                            
-                            <a href="/list.html?cat=215">项目管理</a>
-                            
-                            <a href="/list.html?cat=216">领导学</a>
-                            
-                            <a href="/list.html?cat=217">互联网+</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">经济 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=214">通俗读物</a>
-                            
-                            <a href="/list.html?cat=219">会计、审计</a>
-                            
-                            <a href="/list.html?cat=220">世界经济</a>
-                            
-                            <a href="/list.html?cat=221">职业资格考试</a>
-                            
-                            <a href="/list.html?cat=222">中国经济</a>
-                            
-                            <a href="/list.html?cat=223">经济学理论</a>
-                            
-                            <a href="/list.html?cat=224">行业经济</a>
-                            
-                            <a href="/list.html?cat=225">经济体制与改革</a>
-                            
-                            <a href="/list.html?cat=226">贸易经济</a>
-                            
-                            <a href="/list.html?cat=227">经济计划与管理</a>
-                            
-                            <a href="/list.html?cat=228">财政税收</a>
-                            
-                            <a href="/list.html?cat=229">经济史</a>
-                            
-                            <a href="/list.html?cat=230">工业经济</a>
-                            
-                            <a href="/list.html?cat=231">工具书与参考书</a>
-                            
-                            <a href="/list.html?cat=232">智能经济</a>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">金融与投资 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=234">投资</a>
-                            
-                            <a href="/list.html?cat=235">国际金融</a>
-                            
-                            <a href="/list.html?cat=236">期货</a>
-                            
-                            <a href="/list.html?cat=237">各国金融银行</a>
-                            
-                            <a href="/list.html?cat=238">股票</a>
-                            
-                            <a href="/list.html?cat=239">中国金融银行</a>
-                            
-                            <a href="/list.html?cat=240">证券</a>
-                            
-                            <a href="/list.html?cat=241">货币银行学</a>
-                            
-                            <a href="/list.html?cat=242">基金</a>
-                            
-                            <a href="/list.html?cat=243">信用管理与信贷</a>
-                            
-                            <a href="/list.html?cat=244">保险</a>
-                            
-                            <a href="/list.html?cat=245">金融市场与管理</a>
-                            
-                            <a href="/list.html?cat=246">个人理财</a>
-                            
-                            <a href="/list.html?cat=247">金融理论</a>
-                            
-                            <a href="/list.html?cat=248">企业并购</a>
-                            
-                            <a href="/list.html?cat=249">互联网金融</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
-            
-            <li>
-                <div class="level1">
-                    
-                    <a href="htttp:www.baidu.com">励志成功馆</a>
-                    
-                </div>
-                <div class="level2">
-                    
-                    <div class="list_group">
-                        <div class="group_name fl">励志与成功 &gt;</div>
-                        <div class="group_detail fl">
-                            
-                            <a href="/list.html?cat=176">个人形象</a>
-                            
-                            <a href="/list.html?cat=177">人在职场</a>
-                            
-                            <a href="/list.html?cat=178">人际与社交</a>
-                            
-                            <a href="/list.html?cat=179">创业必修</a>
-                            
-                            <a href="/list.html?cat=180">励志小品</a>
-                            
-                            <a href="/list.html?cat=181">大师谈励志</a>
-                            
-                            <a href="/list.html?cat=182">女性励志</a>
-                            
-                            <a href="/list.html?cat=183">男性励志</a>
-                            
-                            <a href="/list.html?cat=184">名人励志</a>
-                            
-                            <a href="/list.html?cat=185">心灵鸡汤</a>
-                            
-                            <a href="/list.html?cat=186">成功学</a>
-                            
-                            <a href="/list.html?cat=187">文明礼仪</a>
-                            
-                            <a href="/list.html?cat=188">智慧格言</a>
-                            
-                            <a href="/list.html?cat=189">演讲与口才</a>
-                            
-                            <a href="/list.html?cat=190">自我完善</a>
-                            
-                            <a href="/list.html?cat=191">自我调节</a>
-                            
-                            <a href="/list.html?cat=192">行业成功指南</a>
-                            
-                            <a href="/list.html?cat=193">青少年励志/大学生指南</a>
-                            
-                            <a href="/list.html?cat=194">智力与谋略</a>
-                            
-                            <a href="/list.html?cat=195">情商管理</a>
-                            
-                            <a href="/list.html?cat=196">性格/习惯</a>
-                            
-                            <a href="/list.html?cat=197">财富智慧</a>
-                            
-                            <a href="/list.html?cat=198">出国/留学</a>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </li>
+                </li>
             
         </ul>
 
-        <div class="news">
-            <div class="news_title">
-                <h3>快讯</h3>
-                <a href="#">更多 &gt;</a>
-            </div>
-            <ul class="news_list">
-                
-            </ul>
-            
-        </div>
     </div>
 
-    <div class="list_model">
-        <div class="list_title clearfix">
-            <h3 class="fl" id="model01">1F 手机通讯</h3>
-            <div class="subtitle fr">
-                <a @mouseenter="f1_tab=1" :class="f1_tab===1?'active':''">时尚新品</a>
-                <a @mouseenter="f1_tab=2" :class="f1_tab===2?'active':''">畅想低价</a>
-                <a @mouseenter="f1_tab=3" :class="f1_tab===3?'active':''">手机配件</a>
-            </div>
-        </div>
-        <div class="goods_con clearfix">
-            <div class="goods_banner fl">
-                <img src="">
-                <div class="channel">
-                    
-                </div>
-                <div class="key_words">
-                    
-                </div>
 
-            </div>
-            <ul v-show="f1_tab===1" class="goods_list fl">
-                
-            </ul>
-            <ul v-show="f1_tab===2" class="goods_list fl">
-                
-            </ul>
-            <ul v-show="f1_tab===3" class="goods_list fl">
-                
-            </ul>
-        </div>
-    </div>
-
-    <div class="list_model model02">
+    
+        <div class="list_model">
             <div class="list_title clearfix">
-                <h3 class="fl" id="model01">2F 电脑数码</h3>
+                <h3 class="fl" id="model01">每日疯抢</h3>
                 <div class="subtitle fr">
-                    <a @mouseenter="f2_tab=1" :class="f2_tab===1?'active':''">加价换购</a>
-                    <a @mouseenter="f2_tab=2" :class="f2_tab===2?'active':''">畅享低价</a>
+                    
+                        <a @mouseenter="f1_tab=1"
+                           :class="f1_tab===1?'active':''">中国当代小说</a>
+                    
+                        <a @mouseenter="f1_tab=2"
+                           :class="f1_tab===2?'active':''">科幻小说</a>
+                    
+                        <a @mouseenter="f1_tab=3"
+                           :class="f1_tab===3?'active':''">中国近现代小说</a>
+                    
+
                 </div>
             </div>
             <div class="goods_con clearfix">
-                <div class="goods_banner fl">
-                    <img src="">
-                    <div class="channel">
+                
+                    <ul v-show="f1_tab===1" class="goods_list fl">
                         
-                    </div>
-                    <div class="key_words">
+                            <li>
+                                <a href="/goods/1.html" class="goods_pic"><img src="//img14.360buyimg.com/n7/jfs/t3814/347/179872441/177518/bd7bf523/5809c0d0N09f44e52.jpg"></a>
+                                <h4><a href="/goods/1.html">红与黑（高晓松推荐   法国国家图书馆藏本   全新修订）</a></h4>
+                                <div class="prize">29.90</div>
+                            </li>
                         
-                    </div>
-                </div>
-                <ul v-show="f2_tab===1" class="goods_list fl">
-                    
-                </ul>
-                <ul v-show="f2_tab===2" class="goods_list fl">
-                    
-                </ul>
-            </div>
-        </div>
+                            <li>
+                                <a href="/goods/4.html" class="goods_pic"><img src="//img14.360buyimg.com/n7/jfs/t22369/229/718832911/458967/8c31ec3c/5b162a49N7701bd5a.jpg"></a>
+                                <h4><a href="/goods/4.html">大江大河四部曲（套装共4册）（史诗级电视剧《大江大河》原著小说，王凯、杨烁、董子健主演。一部描写改革开放的奇书。）</a></h4>
+                                <div class="prize">232.00</div>
+                            </li>
+                        
+                    </ul>
+                
+                    <ul v-show="f1_tab===2" class="goods_list fl">
+                        
+                            <li>
+                                <a href="/goods/17.html" class="goods_pic"><img src="//img11.360buyimg.com/n7/jfs/t3226/140/7598807982/455417/eb82ef44/58b93192N11afecb9.jpg"></a>
+                                <h4><a href="/goods/17.html">中国科幻基石丛书：超新星纪元（典藏版）</a></h4>
+                                <div class="prize">19.40</div>
+                            </li>
+                        
+                    </ul>
+                
+                    <ul v-show="f1_tab===3" class="goods_list fl">
+                        
+                            <li>
+                                <a href="/goods/13.html" class="goods_pic"><img src="//img12.360buyimg.com/n7/jfs/t11758/331/853072203/462745/65a0b2e5/59f979afNfc6dc196.jpg"></a>
+                                <h4><a href="/goods/13.html">作家榜经典：呼兰河传（新版！民国传奇女作家，萧红经典代表作！未删节插图珍藏版，附录《生死场》）</a></h4>
+                                <div class="prize">29.90</div>
+                            </li>
+                        
+                    </ul>
+                
 
-        <div class="list_model model03">
+            </div>
+
+        </div>
+    
+        <div class="list_model">
             <div class="list_title clearfix">
-                <h3 class="fl" id="model01">3F 家居家装</h3>
+                <h3 class="fl" id="model01">新品上市</h3>
                 <div class="subtitle fr">
-                    <a @mouseenter="f3_tab=1" :class="f3_tab===1?'active':''">生活用品</a>
-                    <a @mouseenter="f3_tab=2" :class="f3_tab===2?'active':''">厨房用品</a>
+                    
+                        <a @mouseenter="f2_tab=1"
+                           :class="f2_tab===1?'active':''">中国古典小说</a>
+                    
+
                 </div>
             </div>
             <div class="goods_con clearfix">
-                <div class="goods_banner fl">
-                    <img src="">
-                    <div class="channel">
+                
+                    <ul v-show="f2_tab===1" class="goods_list fl">
                         
-                    </div>
-                    <div class="key_words">
+                            <li>
+                                <a href="/goods/14.html" class="goods_pic"><img src="//img12.360buyimg.com/n7/jfs/t1/23981/16/157/283857/5c078e9fEfdb2e768/47f074ecee3f06dc.jpg"></a>
+                                <h4><a href="/goods/14.html">《红楼梦》（启功注释程乙本纪念版，全四册）</a></h4>
+                                <div class="prize">131.10</div>
+                            </li>
                         
-                    </div>
-                </div>
-                <ul v-show="f3_tab===1" class="goods_list fl">
-                    
-                </ul>
-                <ul v-show="f3_tab===2" class="goods_list fl">
-                    
-                </ul>
+                    </ul>
+                
+
             </div>
+
         </div>
+    
+
 
     <div class="footer">
         <div class="foot_link">
@@ -1296,10 +398,10 @@
             <span>|</span>
             <a href="#">友情链接</a>
         </div>
-        <p>CopyRight © 2016 北京美多商业股份有限公司 All Rights Reserved</p>
-        <p>电话：010-****888    京ICP备*******8号</p>
+        <p>CopyRight © 2019 安阳潇潇股份有限公司 All Rights Reserved</p>
+        <p>电话：0370-15037271323 京ICP备*******8号</p>
     </div>
-    </div>
-    <script type="text/javascript" src="js/index.js"></script>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

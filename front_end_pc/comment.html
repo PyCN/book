@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="UTF-text/html;charset=8">
-    <title>美多商城-商品详情</title>
+    <title>潇潇书城-商品详情</title>
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <script type="text/javascript" src="/js/host.js"></script>
@@ -14,7 +14,7 @@
 <div id="app" v-cloak>
     <div class="header_con">
         <div class="header">
-            <div class="welcome fl">欢迎来到美多商城!</div>
+            <div class="welcome fl">欢迎来到潇潇书城!</div>
             <div class="fr">
                 <div v-if="username" class="login_btn fl">
                     欢迎您：<em>[[ username ]]</em>
@@ -46,10 +46,7 @@
                 <input type="submit" class="input_btn fr" name="" value="搜索">
             </form>
             <ul class="search_suggest fl">
-                <li><a href="#">索尼微单</a></li>
-                <li><a href="#">优惠15元</a></li>
-                <li><a href="#">美妆个护</a></li>
-                <li><a href="#">买2免1</a></li>
+                <li v-for="keyword in keywords"><a :href="get_keyword_url(keyword.name)">[[ keyword.name ]]</a></li>
             </ul>
         </div>
 
@@ -109,38 +106,59 @@
     </div>
 
     <div class="goods_detail_con clearfix" v-for="(sku,index) in order.skus">
-        <div class="goods_detail_pic fl"><img
-                :src="sku.sku.default_image_url"></div>
-        <div class="goods_detail_list fr">
-            <h3>[[ sku.sku.name ]]</h3>
-            <p>[[ sku.sku.caption ]]</p>
-            <div class="prize_bar">
-                <span class="show_pirze">¥<em>[[ sku.price ]]</em></span><span> 市场价￥[[ sku.price ]]</span>
-                <a href="javascript:;" class="goods_judge">1人评价</a>
-            </div>
-            <div class="type_select">
-                <label>评分:</label>
-                <a @click="score=5" href="javascript:;" :class=" score==5?'select':'' ">100分</a>
-                <a @click="score=4" href="javascript:;" :class=" score==4?'select':'' ">80分</a>
-                <a @click="score=3" href="javascript:;" :class=" score==3?'select':'' ">60分</a>
-                <a @click="score=2" href="javascript:;" :class=" score==2?'select':'' ">40分</a>
-                <a @click="score=1" href="javascript:;" :class=" score==1?'select':'' ">20分</a>
-                <a @click="score=0" href="javascript:;" :class=" score==0?'select':'' ">0分</a>
-            </div>
+        <div @click="is_active=true">
+            <div class="goods_detail_pic fl"><img
+                    :src="sku.sku.default_image_url"></div>
+            <div class="goods_detail_list fr">
+                <h3>[[ sku.sku.name ]]</h3>
+                <p>[[ sku.sku.caption ]]</p>
+                <br>
+                <div class="prize_bar">
+                    <span class="show_pirze">¥<em>[[ sku.price ]]</em></span>
+                </div>
+                <div class="type_select" v-if="is_active==true">
+                    <label>评分:</label>
+                    <a @click="score=5" href="javascript:;" :class=" score==5?'select':'' ">100分</a>
+                    <a @click="score=4" href="javascript:;" :class=" score==4?'select':'' ">80分</a>
+                    <a @click="score=3" href="javascript:;" :class=" score==3?'select':'' ">60分</a>
+                    <a @click="score=2" href="javascript:;" :class=" score==2?'select':'' ">40分</a>
+                    <a @click="score=1" href="javascript:;" :class=" score==1?'select':'' ">20分</a>
+                    <a @click="score=0" href="javascript:;" :class=" score==0?'select':'' ">0分</a>
+                </div>
+                <div class="type_select" v-else>
+                    <label>评分:</label>
+                    <a href="javascript:;">100分</a>
+                    <a href="javascript:;">80分</a>
+                    <a href="javascript:;">60分</a>
+                    <a href="javascript:;">40分</a>
+                    <a href="javascript:;">20分</a>
+                    <a href="javascript:;">0分</a>
+                </div>
 
-            <div class="type_select">
-                <label>匿名:</label>
-                <a @click="is_anonymous=true" href="javascript:;" :class="is_anonymous==true?'select':'' "> 是 </a>
-                <a @click="is_anonymous=false" href="javascript:;" :class="is_anonymous==false?'select':'' "> 否 </a>
-            </div>
+                <div class="type_select" v-if="is_active==true">
+                    <label>匿名:</label>
+                    <a @click="is_anonymous=true" href="javascript:;" :class="is_anonymous==true?'select':'' "> 是 </a>
+                    <a @click="is_anonymous=false" href="javascript:;" :class="is_anonymous==false?'select':'' "> 否 </a>
+                </div>
+                <div class="type_select" v-else>
+                    <label>匿名:</label>
+                    <a href="javascript:;"> 是 </a>
+                    <a href="javascript:;"> 否 </a>
+                </div>
 
-            <div class="type_select">
-                <label>评论:</label>
-                <textarea rows="5" cols="60" v-model="comment"></textarea>
-            </div>
-            <div class="operate_btn">
-                <a @click="add_comment(sku.id, sku.sku.id)" class="add_cart" id="add_cart">评价</a>
-                <a class="add_cart" id="add_cart" href="/">点击回首页</a>
+                <div class="type_select" v-if="is_active==true">
+                    <label>评论:</label>
+                    <textarea rows="5" cols="60" v-model="comment"></textarea>
+                </div>
+                <div class="type_select" v-else>
+                    <label>评论:</label>
+                    <textarea rows="5" cols="60"></textarea>
+                </div>
+                <div class="operate_btn">
+                    <a @click="add_comment(sku.id, sku.sku.id)" class="add_cart" id="add_cart">评价</a>
+                    <a class="add_cart" id="add_cart" href="/">点击回首页</a>
+                </div>
+
             </div>
 
         </div>
@@ -157,8 +175,8 @@
             <span>|</span>
             <a href="#">友情链接</a>
         </div>
-        <p>CopyRight © 2016 北京美多商业股份有限公司 All Rights Reserved</p>
-        <p>电话：010-****888 京ICP备*******8号</p>
+        <p>CopyRight © 2019 安阳潇潇股份有限公司 All Rights Reserved</p>
+        <p>电话：0370-15037271323 京ICP备*******8号</p>
     </div>
 </div>
 <script type="text/javascript">

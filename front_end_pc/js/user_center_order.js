@@ -60,6 +60,32 @@ var vm = new Vue({
     },
     mounted: function(){
         this.get_orders_result('0');
+        // 判断用户的登录状态
+        if (this.user_id && this.token) {
+            axios.get(this.host + '/user/', {
+                // 向后端传递JWT token的方法
+                headers: {
+                    'Authorization': 'JWT ' + this.token
+                },
+                responseType: 'json',
+            })
+            .then(response => {
+                // 加载用户数据
+                this.user_id = response.data.id;
+                this.username = response.data.username;
+                this.mobile = response.data.mobile;
+                this.email = response.data.email;
+                this.email_active = response.data.email_active;
+
+            })
+            .catch(error => {
+                if (error.response.status == 401 || error.response.status == 403) {
+                    location.href = '/login.html?next=/user_center_order.html';
+                }
+            });
+        } else {
+            location.href = '/login.html?next=/user_center_order.html';
+        }
     },
     methods: {
         // 点击排序

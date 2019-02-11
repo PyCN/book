@@ -8,6 +8,7 @@ urlpatterns = [
     url('^categories/(?P<category_id>\d+)/$', views.BreadcrumbView.as_view()),
     url('^categories/(?P<category_id>\d+)/skus/$', views.SKUListView.as_view()),
     url('^categories/(?P<category_id>\d+)/hotskus/$', views.HotSKUListView.as_view()),
+    url('^keyword/$', views.KeyWordView.as_view()),
     url('^add_data/$', views.AddDataView.as_view()),
 ]
 

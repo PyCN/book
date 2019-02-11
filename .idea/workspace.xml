@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51dbda6-80ee-44ee-b720-0ab13a505d74" name="Default" comment="书城完成">
+    <list default="true" id="e51dbda6-80ee-44ee-b720-0ab13a505d74" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front_end_pc/index_origin.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/1.jpg" afterPath="$PROJECT_DIR$/book_mall/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/scripts/fdfs_client-py-master.zip" afterPath="$PROJECT_DIR$/book_mall/scripts/fdfs_client-py-master.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/images/cart.png" afterPath="$PROJECT_DIR$/front_end_pc/images/cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/images/goods/cart.png" afterPath="$PROJECT_DIR$/front_end_pc/images/goods/cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/images/logo.png" afterPath="$PROJECT_DIR$/front_end_pc/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/images/logo02.png" afterPath="$PROJECT_DIR$/front_end_pc/images/logo02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/book.iml" afterPath="$PROJECT_DIR$/.idea/book.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/require.txt" afterPath="$PROJECT_DIR$/book_mall/require.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/areas/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/adminx.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/constants.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/serializers.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/apps/orders/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/settings/develop.py" afterPath="$PROJECT_DIR$/book_mall/book_mall/settings/develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/templates/detail.html" afterPath="$PROJECT_DIR$/book_mall/book_mall/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/templates/index.html" afterPath="$PROJECT_DIR$/book_mall/book_mall/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf" afterPath="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/celery_tasks/main.py" afterPath="$PROJECT_DIR$/book_mall/celery_tasks/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/run_celery_tasks.sh" afterPath="$PROJECT_DIR$/book_mall/run_celery_tasks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/scripts/import_areas_to_db.sh" afterPath="$PROJECT_DIR$/book_mall/scripts/import_areas_to_db.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/scripts/import_goods_to_db.sh" afterPath="$PROJECT_DIR$/book_mall/scripts/import_goods_to_db.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py" afterPath="$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py" afterPath="$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/cart.html" afterPath="$PROJECT_DIR$/front_end_pc/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/comment.html" afterPath="$PROJECT_DIR$/front_end_pc/comment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/css/main.css" afterPath="$PROJECT_DIR$/front_end_pc/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/detail.html" afterPath="$PROJECT_DIR$/front_end_pc/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/goods_judge.html" afterPath="$PROJECT_DIR$/front_end_pc/goods_judge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/index.html" afterPath="$PROJECT_DIR$/front_end_pc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/comment.js" afterPath="$PROJECT_DIR$/front_end_pc/js/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/detail.js" afterPath="$PROJECT_DIR$/front_end_pc/js/detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/index.js" afterPath="$PROJECT_DIR$/front_end_pc/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/list.js" afterPath="$PROJECT_DIR$/front_end_pc/js/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/js/user_center_order.js" afterPath="$PROJECT_DIR$/front_end_pc/js/user_center_order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/list.html" afterPath="$PROJECT_DIR$/front_end_pc/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/login.html" afterPath="$PROJECT_DIR$/front_end_pc/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/oauth_callback.html" afterPath="$PROJECT_DIR$/front_end_pc/oauth_callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/order_success.html" afterPath="$PROJECT_DIR$/front_end_pc/order_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/pay_success.html" afterPath="$PROJECT_DIR$/front_end_pc/pay_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/place_order.html" afterPath="$PROJECT_DIR$/front_end_pc/place_order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/register.html" afterPath="$PROJECT_DIR$/front_end_pc/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/search.html" afterPath="$PROJECT_DIR$/front_end_pc/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/success_verify_email.html" afterPath="$PROJECT_DIR$/front_end_pc/success_verify_email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/user_center_info.html" afterPath="$PROJECT_DIR$/front_end_pc/user_center_info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/user_center_order.html" afterPath="$PROJECT_DIR$/front_end_pc/user_center_order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/user_center_pass.html" afterPath="$PROJECT_DIR$/front_end_pc/user_center_pass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end_pc/user_center_site.html" afterPath="$PROJECT_DIR$/front_end_pc/user_center_site.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +68,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/meiduo$test.coverage" NAME="test Coverage Results" MODIFIED="1543499274806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/meiduo$views.coverage" NAME="views Coverage Results" MODIFIED="1542896474222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods" />
-    <SUITE FILE_PATH="coverage/book$manage.coverage" NAME="manage Coverage Results" MODIFIED="1545630173727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_mall" />
-    <SUITE FILE_PATH="coverage/meiduo$generate_index_html.coverage" NAME="generate_index_html Coverage Results" MODIFIED="1542786974171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/scripts" />
-    <SUITE FILE_PATH="coverage/book$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1545658346862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_mall/scripts" />
     <SUITE FILE_PATH="coverage/meiduo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1543824450008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall" />
     <SUITE FILE_PATH="coverage/meiduo$regenerate_detail_html.coverage" NAME="regenerate_detail_html Coverage Results" MODIFIED="1542851715992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/scripts" />
-    <SUITE FILE_PATH="coverage/meiduo$test.coverage" NAME="test Coverage Results" MODIFIED="1543499274806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/book$manage.coverage" NAME="manage Coverage Results" MODIFIED="1548175969116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_mall" />
+    <SUITE FILE_PATH="coverage/meiduo$generate_index_html.coverage" NAME="generate_index_html Coverage Results" MODIFIED="1542786974171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall/scripts" />
+    <SUITE FILE_PATH="coverage/book$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1545658346862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_mall/scripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,108 +87,18 @@
     <expand>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="book_mall@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="book_mall@192.168.93.144" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="book_mall@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="book_mall@192.168.93.144" type="e3449647:DbNodeDescriptor" />
         <item name="book_mall" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2489">
-              <caret line="142" column="9" lean-forward="false" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regenerate_detail_html.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1881">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tb_sku" pinned="false" current-in-tab="false">
-        <entry file="das://table:/7c086311/10939ad9-54ce-4069-88d5-92133b5be04c/book_mall.tb_sku">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front_end_pc/js/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <marker date="1545748536459" expanded="true" signature="2350:2372" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="2539:2564" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="3015:3037" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="3109:3134" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="4052:4078" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="4377:4406" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="5211:5237" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="5683:5712" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="5989:6015" ph="{...}" />
-                <marker date="1545748536459" expanded="true" signature="6252:6281" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front_end_pc/js/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding>
-                <marker date="1545748575626" expanded="true" signature="2307:2329" ph="{...}" />
-                <marker date="1545748575626" expanded="true" signature="2401:2426" ph="{...}" />
-                <marker date="1545748575626" expanded="true" signature="3330:3356" ph="{...}" />
-                <marker date="1545748575626" expanded="true" signature="3655:3684" ph="{...}" />
-                <marker date="1545748575626" expanded="true" signature="4269:4295" ph="{...}" />
-                <marker date="1545748575626" expanded="true" signature="4741:4770" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="require.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book_mall/require.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,6 +121,12 @@
       <find>CORS_ORIGIN_WHITELIST</find>
       <find>alert</find>
       <find>meiduo</find>
+      <find>on_tab_content</find>
+      <find>规格与包装</find>
+      <find>price</find>
+      <find>cat</find>
+      <find>goods_list fl</find>
+      <find>slide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,57 +135,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front_end_pc/js/user_center_order.js" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/payment/views.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/views.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/adminx.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/apps.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/admin.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/orders/adminx.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods/adminx.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/areas/adminx.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/admin.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/db_router.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/wsgi.py" />
-        <option value="$PROJECT_DIR$/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/meiduo_mall/uwsgi.pid" />
-        <option value="$PROJECT_DIR$/meiduo_mall/uwsgi.log" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/fastdfs/client.conf" />
-        <option value="$PROJECT_DIR$/meiduo_mall/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/prod.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/develop.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/aec0e56b-a81b-431c-b770-8cbc5b90e8ea/console.sql" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/urls.py" />
-        <option value="$PROJECT_DIR$/book_mall/manage.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/apps.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/areas/apps.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/contents/apps.py" />
+        <option value="$PROJECT_DIR$/book_mall/require.txt" />
         <option value="$PROJECT_DIR$/book_mall/book_mall/apps/contents/models.py" />
-        <option value="$PROJECT_DIR$/book_mall/scripts/import_areas_to_db.sh" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/10939ad9-54ce-4069-88d5-92133b5be04c/console_1.sql" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/areas/adminx.py" />
         <option value="$PROJECT_DIR$/book_mall/book_mall/apps/contents/adminx.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/apps.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/models.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/oauth/adminx.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/orders/models.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/orders/adminx.py" />
-        <option value="$PROJECT_DIR$/front_end_pc/js/host.js" />
-        <option value="$PROJECT_DIR$/book_mall/scripts/import_category_data.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py" />
-        <option value="$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py" />
+        <option value="$PROJECT_DIR$/book_mall/celery_tasks/main.py" />
+        <option value="$PROJECT_DIR$/front_end_pc/js/user_center_order.js" />
+        <option value="$PROJECT_DIR$/front_end_pc/cart.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/goods_judge.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/login.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/oauth_callback.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/order_success.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/pay_success.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/place_order.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/register.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/search.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/success_verify_email.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/user_center_info.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/user_center_order.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/user_center_pass.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/user_center_site.html" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/carts/views.py" />
+        <option value="$PROJECT_DIR$/front_end_pc/goods/10.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/goods/5.html" />
         <option value="$PROJECT_DIR$/book_mall/book_mall/settings/develop.py" />
         <option value="$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py" />
+        <option value="$PROJECT_DIR$/front_end_pc/goods/1.html" />
         <option value="$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py" />
-        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d0e83fa2-6d6d-4599-a9cf-070630a4d48a/console.sql" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/areas/views.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/orders/serializers.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/front_end_pc/css/main.css" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/constants.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/serializers.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py" />
         <option value="$PROJECT_DIR$/front_end_pc/js/list.js" />
-        <option value="$PROJECT_DIR$/front_end_pc/js/search.js" />
+        <option value="$PROJECT_DIR$/front_end_pc/list.html" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/templates/index.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/detail.html" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/templates/detail.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/js/index.js" />
+        <option value="$PROJECT_DIR$/book_mall/book_mall/apps/orders/views.py" />
+        <option value="$PROJECT_DIR$/front_end_pc/js/detail.js" />
+        <option value="$PROJECT_DIR$/front_end_pc/js/comment.js" />
+        <option value="$PROJECT_DIR$/front_end_pc/comment.html" />
+        <option value="$PROJECT_DIR$/front_end_pc/css/style.css" />
+        <option value="$PROJECT_DIR$/front_end_pc/index.html" />
       </list>
     </option>
   </component>
@@ -232,8 +203,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="x" value="318" />
+    <option name="y" value="-16" />
     <option name="width" value="598" />
     <option name="height" value="604" />
   </component>
@@ -256,7 +227,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,7 +242,19 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="book_mall" type="462c0819:PsiDirectoryNode" />
+              <item name="book_mall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="front_end_pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="front_end_pc" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -284,29 +266,30 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods" />
+      <recent name="$PROJECT_DIR$/meiduo_mall" />
+      <recent name="$PROJECT_DIR$/meiduo_mall/scripts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/book_mall/book_mall/apps/oauth" />
       <recent name="$PROJECT_DIR$/book_mall/book_mall/apps/contents" />
       <recent name="$PROJECT_DIR$/front_end_pc/images" />
       <recent name="$PROJECT_DIR$/meiduo_mall" />
       <recent name="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/goods" />
-      <recent name="$PROJECT_DIR$/meiduo_mall" />
-      <recent name="$PROJECT_DIR$/meiduo_mall/scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.import_category_data">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="import_category_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,9 +404,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.import_category_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.import_category_data" />
         <item index="3" class="java.lang.String" itemvalue="Python.views" />
         <item index="4" class="java.lang.String" itemvalue="Python.regenerate_detail_html" />
       </list>
@@ -485,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545828919226</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="书城完成">
+      <created>1545829634398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545829634398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -498,27 +488,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41233766" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803813" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52981263" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31345826" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53376204" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42926046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31345826" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46463022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4633731" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -564,43 +553,102 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="68" />
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/verifications/migrations/__init__.py">
+    <entry file="das://table:/891ff228/04b4a2b7-d499-4087-8660-add335377e17/book_mall.tb_book_category" />
+    <entry file="das://table:/891ff228/04b4a2b7-d499-4087-8660-add335377e17/book_mall.tb_book" />
+    <entry file="das://table:/891ff228/04b4a2b7-d499-4087-8660-add335377e17/book_mall.tb_book_channel" />
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1386">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/carts/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="240" column="9" lean-forward="false" selection-start-line="240" selection-start-column="9" selection-end-line="240" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/carts/models.py">
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7266">
+          <caret line="346" column="11" lean-forward="false" selection-start-line="346" selection-start-column="11" selection-end-line="346" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/settings/develop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="343" column="25" lean-forward="true" selection-start-line="343" selection-start-column="25" selection-end-line="343" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/py3_book/Lib/site-packages/django/template/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/carts/apps.py">
+    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="4503">
+          <caret line="492" column="22" lean-forward="true" selection-start-line="492" selection-start-column="22" selection-end-line="492" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/apps.py">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="219">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d0e83fa2-6d6d-4599-a9cf-070630a4d48a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -611,185 +659,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/scripts/goods_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/scripts/import_areas_to_db.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/10939ad9-54ce-4069-88d5-92133b5be04c/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/tests.py">
+    <entry file="file://$USER_HOME$/Envs/py3_book/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/oauth/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/oauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/oauth/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/areas/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="26166">
+          <caret line="1303" column="0" lean-forward="false" selection-start-line="1303" selection-start-column="0" selection-end-line="1303" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2982">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/js/host.js">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/carts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/3.html" />
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/2.html" />
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/1.html" />
+    <entry file="file://$PROJECT_DIR$/1.png" />
+    <entry file="file://$PROJECT_DIR$/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/front_end_pc/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
+        <state relative-caret-position="-189">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/adminx.py">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="84">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/scripts/import_category_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/utils/fastdfs/client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/settings/develop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="353" column="16" lean-forward="true" selection-start-line="353" selection-start-column="16" selection-end-line="353" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/views.py">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/search_indexes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,132 +727,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        <state relative-caret-position="476">
+          <caret line="87" column="49" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/detail.html">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/scripts/regenerate_index_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/contents/crons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        <state relative-caret-position="122">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2489">
-          <caret line="142" column="9" lean-forward="false" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_mall/scripts/regenerate_detail_html.py">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/goods/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/7c086311/10939ad9-54ce-4069-88d5-92133b5be04c/book_mall.tb_sku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/goods/143.html" />
-    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front_end_pc/js/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <marker date="1545748536459" expanded="true" signature="2350:2372" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="2539:2564" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="3015:3037" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="3109:3134" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="4052:4078" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="4377:4406" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="5211:5237" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="5683:5712" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="5989:6015" ph="{...}" />
-            <marker date="1545748536459" expanded="true" signature="6252:6281" ph="{...}" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="103" column="10" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="103" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end_pc/js/search.js">
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <marker date="1545748575626" expanded="true" signature="2307:2329" ph="{...}" />
-            <marker date="1545748575626" expanded="true" signature="2401:2426" ph="{...}" />
-            <marker date="1545748575626" expanded="true" signature="3330:3356" ph="{...}" />
-            <marker date="1545748575626" expanded="true" signature="3655:3684" ph="{...}" />
-            <marker date="1545748575626" expanded="true" signature="4269:4295" ph="{...}" />
-            <marker date="1545748575626" expanded="true" signature="4741:4770" ph="{...}" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4063">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/apps/orders/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="96" column="15" lean-forward="false" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_mall/book_mall/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="125" column="74" lean-forward="false" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/js/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2373">
+          <caret line="113" column="10" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="113" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/js/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/front_end_pc/js/index_texiao.js" />
+    <entry file="file://$PROJECT_DIR$/front_end_pc/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end_pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_mall/require.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="-882">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

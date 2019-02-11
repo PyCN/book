@@ -29,7 +29,8 @@ var vm = new Vue({
             3: 'stars_three',
             4: 'stars_four',
             5: 'stars_five',
-        }
+        },
+        keywords:[],
     },
     computed: {
         sku_amount: function(){
@@ -93,8 +94,24 @@ var vm = new Vue({
         this.get_cart();
         this.get_hot_goods();
         this.get_comments();
+        this.get_keyword();
     },
     methods: {
+        get_keyword_url:function (name) {
+          return "/search.html?q="+name;
+        },
+        // 请求查询结果
+        get_keyword: function () {
+            axios.get(this.host+'/keyword/', {
+                responseType:'json'
+            })
+            .then(response => {
+                this.keywords = response.data;
+            })
+            .catch(error => {
+                console.log(error.response.data)
+            });
+        },
         user_anonymous:function (name, is_anonymous) {
             if (is_anonymous){
                 name = name.substring(0,1) + '***' + name.substring(name.length-1) + '(匿名)';
@@ -211,9 +228,6 @@ var vm = new Vue({
                         page_size: this.page_size,
                     },
                     responseType: 'json',
-                    headers: {
-                        'Authorization': 'JWT ' + this.token
-                    },
                 })
                 .then(response => {
                     this.count = response.data.count;

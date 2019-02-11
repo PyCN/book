@@ -7,8 +7,8 @@ from django.conf import settings
 from django.template import loader
 
 from contents.models import ContentCategory
-from goods.models import GoodsChannel
 from goods.utils import get_categories
+from goods.models import Advertise, AdvertiseCategory, SKU
 
 
 def generate_static_index_html():
@@ -18,35 +18,6 @@ def generate_static_index_html():
     # 字典内容: 商品频道及分类菜单
     # 创建有序字典
     categories = get_categories()
-    # categories = OrderedDict()
-    # # 查询所有商品频道
-    # channels = GoodsChannel.objects.order_by('group_id', 'sequence')
-    # for channel in channels:
-    #     # 获取频道所属的当前组
-    #     group_id = channel.group_id
-    #     if group_id not in categories:
-    #         categories[group_id] = {'channels': [], 'sub_cats': []}
-    #
-    #     # 获取当前频道的类别
-    #     # cat1为商品一级分类
-    #     cat1 = channel.category
-    #     # 往当前组内添加商品分类的信息
-    #     categories[group_id]['channels'].append({
-    #         'id': cat1.id,
-    #         'name': cat1.name,
-    #         'url': channel.url
-    #     })
-    #
-    #     # cat2为商品二级分类对象
-    #
-    #     for cat2 in cat1.goodscategory_set.all():
-    #         # 为cat2添加sub_cats属性
-    #         cat2.sub_cats = []
-    #         # cat3为商品三级分类对象
-    #         for cat3 in cat2.goodscategory_set.all():
-    #             cat2.sub_cats.append(cat3)
-    #         categories[group_id]['sub_cats'].append(cat2)
-
     # 广告内容
     contents = {}
     # contents = {
@@ -56,10 +27,30 @@ def generate_static_index_html():
     content_categories = ContentCategory.objects.all()
     for cat in content_categories:
         contents[cat.key] = cat.content_set.filter(status=True).order_by('sequence')
+
+    # 图书广告
+    advertise_categories = AdvertiseCategory.objects.all()
+    advertises = []
+    for cat in advertise_categories:
+        advertise = {}
+        advertise['cat'] = cat
+        advertise['skus_cats'] = []
+        advertise['skus'] = []
+        for a in Advertise.objects.filter(category=cat):
+            # advertise['skus'].append(a.sku)
+            if a.sku.category not in advertise['skus_cats']:
+                advertise['skus_cats'].append(a.sku.category)
+
+        for cat in advertise['skus_cats']:
+            advertise['skus'].append(SKU.objects.filter(category=cat, advertise__category=advertise['cat']))
+
+        advertises.append(advertise)
+
     # 渲染渲染
     context = {
         'categories': categories,
-        'contents': contents
+        'contents': contents,
+        'advertises':advertises
     }
     template = loader.get_template('index.html')
     html_text = template.render(context)

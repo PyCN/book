@@ -19,34 +19,8 @@ class SKUIndexSerializer(HaystackSerializer):
         fields = ('text', 'id', 'name', 'price', 'default_image_url', 'comments')
 
 
-# class GoodsCategorySerializer(serializers.ModelSerializer):
-#
-#     class Meta:
-#         model = models.GoodsCategory
-#         fields = ('id', 'name')
-#
-#
-# class GoodsChannelSerializer(serializers.ModelSerializer):
-#     category = GoodsCategorySerializer()
-#
-#     class Meta:
-#         model = models.GoodsChannel
-#         fields = ('url', 'category')
-#
-#
-# # class GoodsCategory2Serializer(serializers.ModelSerializer):
-# #     sub_cats = GoodsCategorySerializer(many=True)
-# #
-# #     class Meta:
-# #         model = models.GoodsCategory
-# #         fields = ('sub_cats', 'name')
-# #
-# #
-# # class GoodsCategoryListSerializer(serializers.ModelSerializer):
-# #     channels = GoodsChannelSerializer(many=True)
-# #     sub_cats = GoodsCategory2Serializer(many=True)
-# #
-# #     class Meta:
-# #         model = models.GoodsChannel
-# #         fields = ('channels', 'sub_cats')
-
+class KeyWordSerializer(serializers.ModelSerializer):
+    """图书关键字序列化器"""
+    class Meta:
+        model = models.KeyWord
+        fields = ('id', 'name')

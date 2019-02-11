@@ -23,7 +23,10 @@ var vm = new Vue({
         order: '',
         score: 5, //商品评分
         is_anonymous: true, //用户匿名
-        comment:'', //用户评价
+        comment:'', //用户评价,
+        keywords:[],
+        is_active: false,
+
     },
     mounted: function(){
         this.get_categories();
@@ -32,7 +35,21 @@ var vm = new Vue({
         this.get_order();
     },
     methods: {
-
+        get_keyword_url:function (name) {
+          return "/search.html?q="+name;
+        },
+        // 请求查询结果
+        get_keyword: function () {
+            axios.get(this.host+'/keyword/', {
+                responseType:'json'
+            })
+            .then(response => {
+                this.keywords = response.data;
+            })
+            .catch(error => {
+                console.log(error.response.data)
+            });
+        },
         // 获取url路径参数
         get_query_string: function(name){
             var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
@@ -78,7 +95,7 @@ var vm = new Vue({
             location.href = '/login.html';
         },
 
-        // 添加购物车
+        // 添加评论
         add_comment: function(goods_id, sku_id){
             axios.put(this.host+'/comment/', {
                     id: parseInt(goods_id),

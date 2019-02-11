@@ -113,9 +113,8 @@ class SaveOrderSerializer(serializers.ModelSerializer):
                         if ret == 0:
                             continue
                         # 累计商品的SPU 销量信息
-                        sku.goods.sales += new_sales
-                        # 保存SPU
-                        sku.goods.save()
+                        sku.sales += new_sales
+                        sku.save()
                         # 累计订单基本信息的数据
                         order.total_count += sku_count  # 累计当前订单商品数量
                         order.total_amount += sku_count * sku.price  # 累计当前订单商品总额
@@ -157,7 +156,7 @@ class SaveOrderSerializer(serializers.ModelSerializer):
 class SKUSerializer(serializers.ModelSerializer):
     class Meta:
         model = SKU
-        fields = ('id', 'default_image_url', 'name', 'caption', 'price')
+        fields = ('id', 'default_image_url', 'name', 'price')
 
 
 class OrderGoodsSerializer(serializers.ModelSerializer):

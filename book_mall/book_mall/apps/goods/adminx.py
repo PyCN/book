@@ -19,7 +19,7 @@ class GlobalSettings(object):
 class SKUAdmin(object):
     # model_icon = 'fa fa-gift'
     list_display = ['id', 'name', 'price', 'stock', 'sales', 'comments']
-    search_fields = ['id','name']
+    search_fields = ['id', 'name']
     list_filter = ['category']
     list_editable = ['price', 'stock']
     show_detail_fields = ['name']
@@ -34,29 +34,7 @@ class SKUAdmin(object):
         generate_static_sku_detail_html.delay(obj.id)
 
 
-class SKUSpecificationAdmin(object):
-    def save_models(self):
-        # 保存数据对象
-        obj = self.new_obj
-        obj.save()
-
-        # 补充自定义行为
-        from celery_tasks.html.tasks import generate_static_sku_detail_html
-        generate_static_sku_detail_html.delay(obj.sku.id)
-
-    def delete_model(self):
-        # 删除数据对象
-        obj = self.obj
-        sku_id = obj.sku.id
-        obj.delete()
-
-        # 补充自定义行为
-        from celery_tasks.html.tasks import generate_static_sku_detail_html
-        generate_static_sku_detail_html.delay(sku_id)
-
-
 class SKUImageAdmin(object):
-
     def save_models(self):
         obj = self.new_obj
         obj.save()
@@ -80,41 +58,31 @@ class GoodsCategoryAdmin(object):
     search_fields = ['name']
 
 
-class GoodsAdmin(object):
-    list_display = ['id', 'name', 'brand', 'category1', 'category2', 'category3']
-    list_filter = ['brand', 'category1', 'category2', 'category3']
-
-
-class GoodsSpecificationAdmin(object):
-    list_display = ['id', 'goods', 'name']
-    list_filter = ['goods']
-
-
-class SpecificationOptionAdmin(object):
-    list_display = ['id', 'spec', 'value']
-    list_filter = ['spec']
-
-
-class BrandAdmin(object):
-    list_display = ['id', 'name', 'logo', 'first_letter']
-
-
 class GoodsChannelAdmin(object):
     list_display = ['id', 'group_id', 'category', 'url', 'sequence']
+
+
+class AdvertiseCategoryAdmin(object):
+    list_display = ['id', 'name']
+
+
+class AdvertiseAdmin(object):
+    list_display = ['id', 'category', 'sku']
+
+
+class KeyWordAdmin(object):
+    list_display = ['id', 'name']
 
 
 # 全局注册
 xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(views.CommAdminView, GlobalSettings)
 
-
 # 商品注册
-xadmin.site.register(models.GoodsCategory, GoodsCategoryAdmin)
-xadmin.site.register(models.GoodsChannel, GoodsChannelAdmin)
-xadmin.site.register(models.Goods, GoodsAdmin)
-xadmin.site.register(models.Brand, BrandAdmin)
-xadmin.site.register(models.GoodsSpecification, GoodsSpecificationAdmin)
-xadmin.site.register(models.SpecificationOption, SpecificationOptionAdmin)
+xadmin.site.register(models.Category, GoodsCategoryAdmin)
+xadmin.site.register(models.Channel, GoodsChannelAdmin)
 xadmin.site.register(models.SKU, SKUAdmin)
-xadmin.site.register(models.SKUSpecification, SKUSpecificationAdmin)
 xadmin.site.register(models.SKUImage, SKUImageAdmin)
+xadmin.site.register(models.AdvertiseCategory, AdvertiseCategoryAdmin)
+xadmin.site.register(models.Advertise, AdvertiseAdmin)
+xadmin.site.register(models.KeyWord, KeyWordAdmin)

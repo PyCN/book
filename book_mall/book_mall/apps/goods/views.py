@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
 
-from .models import SKU, GoodsCategory, GoodsChannel
+from .models import SKU, Category, Channel, KeyWord
 from . import serializers
 from .utils import get_categories
 from . import constants
@@ -51,13 +51,13 @@ class BreadcrumbView(APIView):
 
         context = {}
         try:
-            cat3 = GoodsCategory.objects.get(id=category_id)
+            cat3 = Category.objects.get(id=category_id)
 
             context['cat3'] = {'name': cat3.name}
-            cat2 = GoodsCategory.objects.get(id=cat3.parent_id)
+            cat2 = Category.objects.get(id=cat3.parent_id)
             context['cat2'] = {'name': cat2.name}
-            cat1 = GoodsCategory.objects.get(id=cat2.parent_id)
-            gc = GoodsChannel.objects.get(category_id=cat1.id)
+            cat1 = Category.objects.get(id=cat2.parent_id)
+            gc = Channel.objects.get(category_id=cat1.id)
         except Exception as e:
             return Response('分类不存在', status=status.HTTP_400_BAD_REQUEST)
         else:
@@ -66,6 +66,12 @@ class BreadcrumbView(APIView):
                 'category': {'name': cat1.name }
             }
             return Response(context)
+
+
+class KeyWordView(ListAPIView):
+    serializer_class = serializers.KeyWordSerializer
+    pagination_class = None
+    queryset = KeyWord.objects.all()[0:constants.KEY_WORD_MAX_LIMIT]
 
 
 class SKUSearchViewSet(HaystackViewSet):
@@ -84,66 +90,47 @@ class AddDataView(APIView):
     def get(self, request):
         from pymongo import MongoClient
 
-        client = MongoClient(host='192.168.93.1')
+        client = MongoClient(host='127.0.0.1')
         collection = client['JD']['book']
         books = collection.find()
         for book in books:
             print(book['b_cate'], book['s_cate'])
+            try:
+                book_author = ' '.join(book['book_author'])
+            except Exception as e:
+                pass
             # try:
-            #     cat2 = models.GoodsCategory.objects.get(name=book['b_cate'])
+            #     cat2 = models.Category.objects.get(name=book['b_cate'])
             # except Exception as e:
-            #     cat2 = models.GoodsCategory.objects.create(
+            #     cat2 = models.Category.objects.create(
             #         name=book['b_cate']
             #     )
             # try:
-            #     cat3 = models.GoodsCategory.objects.get(name=book['s_cate'])
+            #     cat3 = models.Category.objects.get(name=book['s_cate'])
             # except Exception as e:
-            #     cat3 = models.GoodsCategory.objects.create(
+            #     cat3 = models.Category.objects.create(
             #         name=book['s_cate']
             #     )
             # cat3.parent = cat2
             # cat3.save()
+
+
+            cat = models.Category.objects.get(name=book['s_cate'])
             try:
-                category3 = models.GoodsCategory.objects.get(name=book['s_cate'], parent__name=book['b_cate'])
-                category2 = category3.parent
-                category1 = category2.parent
-                try:
-                    goods = models.Goods.objects.get(name=book['book_title'])
-                except Exception as e:
-                    goods = models.Goods.objects.create(
-                        name=book['book_title'],
-                        brand_id=1,
-                        category1=category1,
-                        category2=category2,
-                        category3=category3
-                    )
-                spec = models.GoodsSpecification.objects.create(
-                    name='选择系列',
-                    goods=goods
-                )
-                spec_option = models.SpecificationOption.objects.create(
-                    spec=spec,
-                    value=book['book_title']
-                )
-                sku = models.SKU.objects.create(
+                sku = models.SKU.objects.get(name=book['book_title'])
+                sku.desc_service = book['book_service']
+                sku.save()
+            except Exception as e:
+                models.SKU.objects.create(
                     name=book['book_title'],
-                    caption=book['book_title'],
-                    goods=goods,
-                    category=category3,
+                    category=cat,
                     price=book['book_price'],
                     cost_price=float(book['book_price']) * 0.8,
                     market_price=float(book['book_price']) * 1.3,
-                    default_image_url=book['book_img']
+                    default_image_url=book['book_img'],
+                    author=book_author,
+                    stock=10,
+                    desc_detail=book['book_detail'],
                 )
-                models.SKUSpecification.objects.create(
-                    sku=sku,
-                    spec=spec,
-                    option=spec_option
-                )
-            except Exception as e:
-                pass
-
-
-
         return Response('ok')
 

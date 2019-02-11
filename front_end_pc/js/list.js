@@ -19,7 +19,8 @@ var vm = new Vue({
         cart: [], // 购物车数据
         hots: [], // 热销商品
         categories: {},  // 商品分类,
-        query: '' //商品查询参数
+        query: '', //商品查询参数,
+        keywords:[], //关键字
     },
     computed: {
 
@@ -83,9 +84,24 @@ var vm = new Vue({
         this.query = this.get_query_string('q');
         this.get_cart();
         this.get_hot_goods();
+        this.get_keyword();
     },
     methods: {
+        get_keyword_url:function (name) {
+          return "/search.html?q="+name;
+        },
         // 请求查询结果
+        get_keyword: function () {
+            axios.get(this.host+'/keyword/', {
+                responseType:'json'
+            })
+            .then(response => {
+                this.keywords = response.data;
+            })
+            .catch(error => {
+                console.log(error.response.data)
+            });
+        },
         cat3_url: function (cat_id) {
           return '/list.html?cat=' + cat_id;
         },
